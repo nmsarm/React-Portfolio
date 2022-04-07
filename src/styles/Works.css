@@ -1,4 +1,16 @@
 .works-container{
-    height: 100vh;
-    background-color: pink;
+    height: 90vh;
+}
+
+.innerWorks-container{
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    max-height: 100vh;
 }

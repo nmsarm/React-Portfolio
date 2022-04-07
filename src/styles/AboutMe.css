@@ -1,0 +1,42 @@
+.aboutMe-container{
+    height: 100vh;
+    background-color: #212121;
+}
+
+.aboutMe h1{
+    color: #678983;
+    font-size: 100px;
+}
+
+.aboutMe p {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 30px;
+}
+
+/*align the heading and lines*/
+
+.pa-heading-line-right h1 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+/*add and adjust the lines*/
+
+.pa-heading-line-right h1:after {
+	content: '';
+	border-top: 2px solid;
+	margin: 0 20px 0 0;
+	flex: 1 0 20px;
+	color: #fff;
+}
+
+
+/*add spacing between heading and line*/
+
+.pa-heading-line-right h1:after {
+	margin: 0 0 0 20px;
+}

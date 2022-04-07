@@ -1,4 +1,12 @@
 .contact-container{
     height: 100vh;
-    background-color: lightgrey;
+    background-color: #212121;
+}
+
+.contact-title {
+    font-size: 80px;
+}
+
+.btn-download {
+    width: 50%;
 }

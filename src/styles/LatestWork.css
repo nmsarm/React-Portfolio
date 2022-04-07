@@ -1,0 +1,22 @@
+.latestwork-container{
+    height: 60vh;
+    max-height: 100vh;
+    /* background-color: white; */
+}
+
+.inner-container {
+    width: 80%;
+    height: 60%;
+    background-color: white;
+    border-radius: 20px;
+    margin: -3% auto 20px auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    max-height: 80vh;
+}
+
+.latestwork-desc {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+}

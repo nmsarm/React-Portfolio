@@ -1,0 +1,40 @@
+.aboutSkills-container{
+    height: 100vh;
+    background-color: #212121;
+}
+
+.aboutSkills h1{
+    color: #678983;
+    font-size: 100px;
+    text-align: right;
+}
+
+
+
+/*align the heading and lines*/
+
+.pa-heading-line-left h1 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+/*add and adjust the lines*/
+
+.pa-heading-line-left h1:before {
+	content: '';
+	border-top: 2px solid;
+	margin: 0 20px 0 0;
+	flex: 1 0 20px;
+	color: #fff;
+}
+
+
+/*add spacing between heading and line*/
+
+.pa-heading-line-left h1:before {
+	margin: 0 20px 0 0;
+}

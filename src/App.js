@@ -1,11 +1,16 @@
 import './App.css';
 
+// Components
 import NavBar from './components/NavBar';
-import Home from './sections/Home';
-import About from './sections/About';
-import Works from './sections/Works';
-import Contact from './sections/Contact';
+import Home from './pages/Home';
+import LatestWork from './pages/LatestWork';
+import AboutMe from './pages/AboutMe';
+import AboutSkills from './pages/AboutSkills';
+import Works from './pages/Works';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
+
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
@@ -15,8 +20,12 @@ function App() {
        <section className="home-section" id="home">
         <Home />
        </section>
+       <section className="latestwork-section" id="latest-work">
+        <LatestWork/>
+       </section>
        <section className="about-section" id="about">
-        <About />
+        <AboutMe />
+        <AboutSkills />
        </section>
        <section className="works-section" id="works">
         <Works />
@@ -26,6 +35,9 @@ function App() {
        </section>
      </main>
      <Footer />
+     <ScrollToTop 
+        smooth
+      />
     </div>
   );
 }
