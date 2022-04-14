@@ -20,17 +20,17 @@ function App() {
        <section className="home-section" id="home">
         <Home />
        </section>
-       <section className="latestwork-section" id="latest-work">
+       <section className="latestwork-section anchor" id="latest-work">
         <LatestWork/>
        </section>
-       <section className="about-section" id="about">
+       <section className="about-section anchor" id="about">
         <AboutMe />
         <AboutSkills />
        </section>
-       <section className="works-section" id="works">
+       <section className="works-section anchor" id="works">
         <Works />
        </section>
-       <section className="contact-section" id="contact">
+       <section className="contact-section anchor" id="contact">
         <Contact />
        </section>
      </main>

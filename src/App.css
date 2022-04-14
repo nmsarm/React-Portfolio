@@ -7,8 +7,16 @@
 
 .font-400 {
   font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
+  font-weight: 400;
 }
+
+
+.anchor {
+  display:block;
+  padding-top: 85px;
+  margin-top: -85px;
+}
+
 
 .socmed-btn {
   margin-right: 2rem;
