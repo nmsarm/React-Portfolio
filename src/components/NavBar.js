@@ -56,7 +56,7 @@ const NavBar = () => {
                             </p>
                         </Nav.Link>
                         <Nav.Link href="#contact" className="offset-lg-10 pt-3">
-                            <button className="btn-success rounded p-2 shadow-sm" style={{width: "120px"}}> Contact Me </button>
+                            <button className="btn-success rounded p-2 shadow" style={{width: "120px"}}> Contact Me </button>
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
@@ -67,3 +67,4 @@ const NavBar = () => {
 }
 
 export default NavBar
+
