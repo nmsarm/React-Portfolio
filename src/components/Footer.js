@@ -34,7 +34,7 @@ const Footer = () =>{
                 </div>
 
                 <div className="footer-copyright text-center p-3 text-white" style={footerCopyright}> 
-                    © 2022 Daneah Sarmiento - Designed and Developed by Me.
+                    Copyright © 2022 Daneah Sarmiento
                 </div>
             </footer>
         </>
