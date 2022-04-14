@@ -76,10 +76,11 @@
 	box-shadow: 5px 5px;
 }
 
-.timeline ul li:hover {
-	transform: scale(1.02);
-	margin-left: 0.5rem;
-}
+/* .timeline ul li:hover {
+	transform: scale(1.02)!important;
+	margin-left: 0.3rem!important;
+} */
+
 
 .timeline ul li:last-child {
 	margin-bottom: 0;
@@ -137,6 +138,7 @@
 		border-radius: 0px 20px 20px 20px;
 	}
 
+	/* circle */
 	.timeline ul li::before {
 		content: "";
 		position: absolute;

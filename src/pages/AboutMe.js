@@ -8,7 +8,7 @@ import iAc from '../assets/img/iacademy-logo.png';
 import '../styles/AboutMe.css'
 
 const AboutMe = () =>{
-
+    
     return(
         <div className="aboutMe-container container-fluid">
             <div className="container">
