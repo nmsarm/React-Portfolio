@@ -3,6 +3,8 @@ import '../styles/Home.css';
 import { Button } from 'react-bootstrap';
 import Img from '../assets/img/home-img.png';
 
+import Typewriter from 'typewriter-effect';
+
 const Home = () =>{
 
     return(
@@ -11,7 +13,16 @@ const Home = () =>{
                 <div className="homeLeft-wrapper">
                     <h3 className="home-subtitle text-white">Hello!</h3>
                     <h1 className="home-title text-white">I’m <span className="name-text">Daneah Sarmiento</span></h1>
-                    <h2 className="home-description text-white">A Web Developer</h2>
+                    <h2 className="home-description text-white">
+                             <Typewriter 
+                                onInit={(typewriter) => {
+                                    typewriter
+                                        .typeString('A Web Developer')
+                                        .pauseFor(2000)
+                                        .start();
+                                }}  
+                            />
+                    </h2>
                     <div className="mt-4 mb-5">
                         <a className="socmed-btn btn btn-outline-light btn-floating px-3" href="mailto:daneahsarmiento@gmail.com?"  target="__blank" role="button"
                             ><i className="fa fa-envelope"></i
