@@ -103,6 +103,7 @@
 	width: 50%;
 	height: 100%;
 	background: rgba(255, 255, 255, 0.03);
+
   }
   
 .card-container .skills-card .skills-box .skills-content {
@@ -128,8 +129,8 @@
   }
   
   .card-container .skills-card .skills-box .skills-content p {
-	font-size: 1rem;
-	font-weight: 300;
+	font-size: 0.8rem;
+	/* font-weight: 300; */
 	color: rgba(255, 255, 255, 0.9);
 	z-index: 1;
 	transition: 0.5s;
