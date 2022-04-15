@@ -15,11 +15,17 @@ const Home = () =>{
                     <h1 className="home-title text-white">I’m <span className="name-text">Daneah Sarmiento</span></h1>
                     <h2 className="home-description text-white">
                              <Typewriter 
+                                options={{
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+
                                 onInit={(typewriter) => {
                                     typewriter
                                         .typeString('A Web Developer')
                                         .pauseFor(2000)
                                         .start();
+
                                 }}  
                             />
                     </h2>
