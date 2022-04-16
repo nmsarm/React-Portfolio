@@ -33,7 +33,7 @@ const Contact = () =>{
                         <p className="contact-desc text-white font-400 mt-4">
                            Feel free to reach out for inquiries, invitations, or collaborations! :) 
                         </p>
-                        <div className="mt-5 mb-5">
+                        <div className="mt-5 mb-4">
                             <a className="socmed-btn btn btn-outline-light btn-floating px-3" href="mailto:daneahsarmiento@gmail.com?"  target="__blank" role="button"
                                 ><i className="fa fa-envelope"></i
                             ></a>
@@ -46,7 +46,7 @@ const Contact = () =>{
                         </div>
                         <Button 
                             variant="success" 
-                            className="btn-download rounded px-4 py-2 font-400"
+                            className="btn-download rounded py-2 font-400"
                             href={CV}
                             download="Sarmiento-DaneahMarelle-CV.pdf"
                             target="_blank"
