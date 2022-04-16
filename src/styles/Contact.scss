@@ -1,7 +1,16 @@
+@import 'Colors';
+
+.c-bg {
+    width: 20px;
+    height: 100%;
+    background-color: $darkGreen;
+    position: absolute;
+}
+
 .contact-container {
     min-height: 100vh;
     height: auto;
-    background-color: #212121;
+    background-color: $darkBG;
 }
 
 .contact-title {

@@ -1,12 +1,14 @@
+@import 'Colors';
+
 .aboutSkills-container {
   min-height: 100vh;
   height: auto;
-  background-color: #212121;
+  background-color: $darkBG;
 }
 
 .aboutSkills {
   h1 {
-    color: #678983;
+    color: $darkGreen;
     font-size: 100px;
     text-align: right;
   }

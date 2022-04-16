@@ -1,12 +1,14 @@
+@import 'Colors';
+
 .aboutMe-container {
   min-height: 100vh;
   height: auto;
-  background-color: #212121;
+  background-color: $darkBG;
 }
 
 .aboutMe {
   h1 {
-    color: #678983;
+    color: $darkGreen;
     font-size: 100px;
   }
 
@@ -149,7 +151,7 @@
         height: 20px;
         width: 20px;
         border-radius: 50%;
-        background-color: #678983;
+        background-color: $lightGreen;
         top: 0px;
         transform: translate(-50%, -50%);
         left: -30px;

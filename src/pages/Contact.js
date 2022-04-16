@@ -25,6 +25,8 @@ const Contact = () =>{
     };
 
     return(
+        <>
+        <div className="c-bg"></div>
         <div className="contact-container container-fluid d-flex align-items-center justify-content-center">
             <div className="container">
                 <div className="row">
@@ -86,6 +88,7 @@ const Contact = () =>{
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

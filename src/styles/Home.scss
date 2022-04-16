@@ -1,7 +1,9 @@
+@import 'Colors';
+
 .home-container {
     display: flex;
     height: 100vh;
-    background-color: #212121;
+    background-color: $darkBG;
 }
 
 .home-left {
@@ -50,7 +52,7 @@
 
 .home-bg {
     clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    background-color: #678983;
+    background-color: $lightGreen;
 
     /*59b256*/
     width: 100%;
