@@ -1,5 +1,8 @@
-import React, { useState } from 'react'; 
+import React, { useState, useEffect } from 'react'; 
 import { Navbar, Nav } from "react-bootstrap";
+
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 // Stylesheet
 import '../styles/NavBar.scss'
@@ -18,6 +21,11 @@ const NavBar = () => {
 
     window.addEventListener('scroll', changeBackground);
     
+    useEffect(() => {
+        Aos.init({duration: 500});
+    }, []);
+
+
     return (
         <>
         {/* remove for transparency: bg="dark" variant="light" */}
@@ -27,6 +35,7 @@ const NavBar = () => {
             className={navbar ? "shadow fixed-top navbar-light p-0" : "fixed-top navbar-dark"} 
             bg={ navbar ? "light" : " "}
             variant={ navbar ? "light" : " "}
+            data-aos={navbar ? " " : "fade-down"}
         > 
             <div className="container">
                 <Navbar.Brand href="/">
