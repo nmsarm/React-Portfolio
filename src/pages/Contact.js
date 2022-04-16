@@ -30,10 +30,10 @@ const Contact = () =>{
                 <div className="row">
                     <div className="col px-5">
                         <h1 className="contact-title text-white">Get in Touch</h1>
-                        <p className="contact-desc text-white font-400">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel eros blandit sem efficitur venenatis eu id urna.
+                        <p className="contact-desc text-white font-400 mt-4">
+                           Feel free to reach out for inquiries, job invitations, or collaborations! :) 
                         </p>
-                        <div className="mt-4 mb-5">
+                        <div className="mt-5 mb-5">
                             <a className="socmed-btn btn btn-outline-light btn-floating px-3" href="mailto:daneahsarmiento@gmail.com?"  target="__blank" role="button"
                                 ><i className="fa fa-envelope"></i
                             ></a>
