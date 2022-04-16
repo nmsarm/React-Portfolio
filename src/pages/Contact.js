@@ -31,7 +31,7 @@ const Contact = () =>{
                     <div className="col px-5">
                         <h1 className="contact-title text-white">Get in Touch</h1>
                         <p className="contact-desc text-white font-400 mt-4">
-                           Feel free to reach out for inquiries, job invitations, or collaborations! :) 
+                           Feel free to reach out for inquiries, invitations, or collaborations! :) 
                         </p>
                         <div className="mt-5 mb-5">
                             <a className="socmed-btn btn btn-outline-light btn-floating px-3" href="mailto:daneahsarmiento@gmail.com?"  target="__blank" role="button"

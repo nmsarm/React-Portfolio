@@ -11,9 +11,9 @@ const Home = () =>{
         <div className="home-container container-fluid d-flex align-items-center justify-content-center p-0">
             <div className="home-left">
                 <div className="homeLeft-wrapper">
-                    <h3 className="home-subtitle text-white">Hello!</h3>
-                    <h1 className="home-title text-white">I’m <span className="name-text">Daneah Sarmiento</span></h1>
-                    <h2 className="home-description text-white">
+                    <h4 className="home-subtitle text-white">Hello!</h4>
+                    <h2 className="home-title text-white">I’m <span className="name-text">Daneah Sarmiento</span></h2>
+                    <h4 className="home-description text-white">
                              <Typewriter 
                                 options={{
                                     autoStart: true,
@@ -28,7 +28,7 @@ const Home = () =>{
 
                                 }}  
                             />
-                    </h2>
+                    </h4>
                     <div className="mt-4 mb-5">
                         <a className="socmed-btn btn btn-outline-light btn-floating px-3" href="mailto:daneahsarmiento@gmail.com?"  target="__blank" role="button"
                             ><i className="fa fa-envelope"></i
@@ -46,7 +46,7 @@ const Home = () =>{
 
                     <Button 
                         variant="success"
-                        className="btn-view rounded px-4 py-2"
+                        className="btn-view rounded py-2"
                         href="#works"
                     > 
                         View My Works 
