@@ -1,9 +1,28 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 // Stylesheet
 import '../styles/Contact.css'
 import { Button, Form} from 'react-bootstrap';
 import CV from '../assets/files/sarmiento-daneah-cv.pdf';
 
 const Contact = () =>{
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_xvvmg9q', 'portfolio-contact', form.current, 'Fg9Qpt_ee8CGX86Gd')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+        alert("Email sent!");
+        form.current.reset();
+    };
 
     return(
         <div className="contact-container container-fluid d-flex align-items-center justify-content-center">
@@ -37,29 +56,29 @@ const Contact = () =>{
 
                     </div>
                     <div className="col">
-                    <Form className="font-400">
+                    <Form className="font-400" ref={form} onSubmit={sendEmail} >
                         <Form.Group className="mb-3" controlId="formName">
                             <Form.Label className="text-white">Name</Form.Label>
-                            <Form.Control type="text" placeholder="Enter name" />
+                            <Form.Control type="text" placeholder="Enter name" name="name" autoComplete="off"/>
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formEmail">
                             <Form.Label className="text-white">Email address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
+                            <Form.Control type="email" placeholder="Enter email" name="email" autoComplete="off"/>
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formSubject">
                             <Form.Label className="text-white">Subject</Form.Label>
-                            <Form.Control type="text" placeholder="Enter subject" />
+                            <Form.Control type="text" placeholder="Enter subject" name="subject" autoComplete="off"/>
                         </Form.Group>
 
                         
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label className="text-white">Leave me a message!</Form.Label>
-                            <Form.Control as="textarea" rows={5} placeholder="Enter message"/>
+                            <Form.Control as="textarea" rows={5} placeholder="Enter message" name="message" autoComplete="off"/>
                         </Form.Group>
 
-                        <Button className="btn-success px-4 py-2" variant="primary" type="submit">
+                        <Button className="btn-success px-4 py-2" variant="primary" type="submit" >
                             Submit
                         </Button>
                     </Form>
