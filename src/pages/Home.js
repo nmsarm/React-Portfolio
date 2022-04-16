@@ -1,5 +1,5 @@
 // Stylesheet
-import '../styles/Home.css';
+import '../styles/Home.scss';
 import { Button } from 'react-bootstrap';
 import Img from '../assets/img/home-img.png';
 

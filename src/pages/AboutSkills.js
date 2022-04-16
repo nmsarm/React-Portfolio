@@ -1,5 +1,5 @@
 // Stylesheet
-import '../styles/AboutSkills.css'
+import '../styles/AboutSkills.scss'
 import SkillCard from '../components/SkillCard';
 import html from '../assets/img/skills/html.svg';
 import css from '../assets/img/skills/css.svg';

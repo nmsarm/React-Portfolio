@@ -6,7 +6,7 @@ import fireclay from '../assets/img/fireclay-logo.png';
 import iAc from '../assets/img/iacademy-logo.png';
 
 // Stylesheet
-import '../styles/AboutMe.css'
+import '../styles/AboutMe.scss'
 
 const AboutMe = () =>{
 

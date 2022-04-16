@@ -56,7 +56,7 @@
   
   .card-container .skills-card {
 	position: relative;
-	min-width: 300px;
+	min-width: 285px;
 	height: 400px;
 	box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
 	  inset -5px -5px 15px rgba(255, 255, 255, 0.1),
@@ -248,22 +248,7 @@
   .sass + svg .outer {
 	stroke: #CD6799;
   }
-
-
-
-
   
-  /* .node {
-	width: 200px;
-	height: 200px;
-	top: 45px;
-	left: 45px;
-  }
-  
-  .node + svg .outer {
-	stroke: #83cd29;
-  }
-   */
   .chart svg {
 	position: absolute;
 	top: 0;

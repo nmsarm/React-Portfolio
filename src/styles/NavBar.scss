@@ -1,0 +1,63 @@
+button:hover {
+    transition: all .15s ease-in;
+}
+
+/* Link Hover Underline Animation */
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+
+    &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    &:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+}
+
+/* When Scrolled */
+
+.hover-underline-animation2 {
+    display: inline-block;
+    position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    &:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}
+
+/* .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #198754!important;
+    font-weight: bold;
+  } */

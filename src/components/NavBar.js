@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Navbar, Nav } from "react-bootstrap";
 
 // Stylesheet
-import '../styles/NavBar.css'
+import '../styles/NavBar.scss'
 
 const NavBar = () => {
 

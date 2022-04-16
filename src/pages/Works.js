@@ -1,5 +1,5 @@
 // Stylesheet
-import '../styles/Works.css'
+import '../styles/Works.scss'
 
 const Works = () =>{
 

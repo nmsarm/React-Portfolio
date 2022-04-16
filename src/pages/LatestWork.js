@@ -1,5 +1,5 @@
 // Stylesheet
-import '../styles/LatestWork.css'
+import '../styles/LatestWork.scss'
 
 const About = () =>{
 

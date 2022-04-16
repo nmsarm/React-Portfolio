@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 // Stylesheet
-import '../styles/Contact.css'
+import '../styles/Contact.scss'
 import { Button, Form} from 'react-bootstrap';
 import CV from '../assets/files/sarmiento-daneah-cv.pdf';
 
