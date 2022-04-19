@@ -4,6 +4,9 @@ button:hover {
     transition: all .15s ease-in;
 }
 
+.contactBtn {
+    background-color: $darkGreen!important;
+}
 /* Link Hover Underline Animation */
 
 .hover-underline-animation {
@@ -44,7 +47,7 @@ button:hover {
         height: 2px;
         bottom: 0;
         left: 0;
-        background-color: $darkGreen;
+        background-color: $darkGreen!important;
         transform-origin: bottom right;
         transition: transform 0.25s ease-out;
     }

@@ -69,7 +69,8 @@
 
     li {
       padding: 20px;
-      background-color: gray;
+      // background-color: gray;
+      background-color: #2a2b2f;
       color: white;
       border-radius: 10px;
       margin-bottom: 20px;
@@ -82,10 +83,10 @@
   }
 }
 
-/* .timeline ul li:hover {
+ .timeline ul li:hover {
       transform: scale(1.02)!important;
       margin-left: 0.3rem!important;
-  } */
+  } 
 
 /* Heading Text */
 /* .timeline-content h3 {

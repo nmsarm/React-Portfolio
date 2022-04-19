@@ -1,22 +1,53 @@
 // Stylesheet
 import '../styles/AboutSkills.scss'
 import SkillCard from '../components/SkillCard';
-import html from '../assets/img/skills/html.svg';
-import css from '../assets/img/skills/css.svg';
-import js from '../assets/img/skills/js.svg';
-import bootstrap from '../assets/img/skills/bootstrap.svg';
-import react from '../assets/img/skills/react.svg';
-import sass from '../assets/img/skills/sass.svg';
+import html from '../assets/img/skills/html.png';
+import css from '../assets/img/skills/css.png';
+import js from '../assets/img/skills/js.png';
+import bootstrap from '../assets/img/skills/bootstrap.png';
+import react from '../assets/img/skills/react.png';
+import sass from '../assets/img/skills/sass.png';
+import node from '../assets/img/skills/nodejs.png';
+import mongo from '../assets/img/skills/mongodb.png';
+import firebase from '../assets/img/skills/firebase.png';
+import python from '../assets/img/skills/python.png';
+import php from '../assets/img/skills/php.png';
+import java from '../assets/img/skills/java.png';
 
-const AboutSkills = () =>{
+// Animate on Scroll
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
+const AboutSkills = () => {
 
     const SkillData = [
-        {key: 1, num: "01", title:"Web Design", txt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?"},
-        {key: 2, num: "02", title:"Front-End Development", txt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?"},
-        {key: 3,num: "03", title:"Project Management", txt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?"}
+        { key: 1, num: "01", title: "Web Design", txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" },
+        { key: 2, num: "02", title: "Front-End Development", txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" },
+        { key: 3, num: "03", title: "Project Management", txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" }
     ];
 
-    return(
+    const TechData = [
+        { key: 1, src: html, alt: "html logo", text: "HTML" },
+        { key: 2, src: css, alt: "css logo", text: "CSS" },
+        { key: 3, src: js, alt: "html logo", text: "JavaScript" },
+        { key: 4, src: react, alt: "react logo", text: "React" },
+        { key: 5, src: bootstrap, alt: "bootstrap logo", text: "Bootstrap" },
+        { key: 6, src: sass, alt: "sass logo", text: "SASS" },
+        { key: 7, src: node, alt: "nodejs logo", text: "Node.js" },
+        { key: 8, src: mongo, alt: "mongodb logo", text: "MongoDB" },
+        { key: 9, src: firebase, alt: "firebase logo", text: "Firebase" },
+        { key: 10, src: python, alt: "python logo", text: "Python" },
+        { key: 11, src: php, alt: "php logo", text: "PHP" },
+        { key: 12, src: java, alt: "java logo", text: "Java" },
+    ];
+
+    useEffect(() => {
+        Aos.init({duration: 500});
+    }, []);
+
+
+    return (
         <div className="aboutSkills-container container-fluid">
             <div className="container">
                 <div className="aboutSkills container pa-heading-line-left row py-5 m-0">
@@ -32,92 +63,14 @@ const AboutSkills = () =>{
                             />
                         ))}
                     </div>
-                    <h2>Tools and Technologies</h2>
-                    {/* <div className="container d-flex flex-row justify-content-center text-white mt-4">
-                        <div className="logo-container text-center p-4">
-                            <img className="tech-logo pb-2" src={html} alt="html logo" />
-                            <p>HTML</p>
-                        </div>
-                        <div className="logo-container text-center p-4">
-                            <img className="tech-logo pb-2" src={css} alt="css logo" />
-                            <p>CSS</p>
-                        </div>
-                        <div className="logo-container text-center text-center p-4">
-                            <img className="tech-logo pb-2" src={bootstrap} alt="bootstrap logo" />
-                            <p>Bootstrap</p>
-                        </div>
-                        <div className="logo-container text-center text-center p-4">
-                            <img className="tech-logo pb-2" src={js} alt="js logo" />
-                            <p>JavaScript</p>
-                        </div>
-                    </div> */}
-                    <div className="container text-white my-5">
-                        <div className="row mb-2">
-                            <div className="col-lg-3 col-12 mb-5">
-                                <figure className="chart" data-percent="75">
-                                    <figcaption>HTML</figcaption>
-                                    <img className="html" src={html} />
-                                    <svg width="200" height="200">
-                                    <circle className="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
-                                    </svg>
-                                </figure>
-                                <h5 className="text-white text-center mt-5">HTML</h5>
+                    <h2>Tools and Technologies Used</h2>
+                    <div className="tech-container container d-flex justify-content-center text-white mt-4 px-5">
+                        {TechData.map((data) => (
+                            <div className="logo-container text-center p-4" data-aos="fade-up">
+                                <img className="tech-logo pb-3" src={data.src} alt={data.alt}/>
+                                <p>{data.text}</p>
                             </div>
-                            <div className="col-lg-3 col-12 mb-5">
-                                <figure className="chart" data-percent="75">
-                                    <figcaption>CSS</figcaption>
-                                    <img className="css" src={css} alt="css logo" width="100" height="100"/>
-                                    <svg width="200" height="200">
-                                        <circle className="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
-                                    </svg>
-                                </figure>
-                                <h5 className="text-white text-center mt-5">CSS</h5>
-                            </div>
-                            <div className="col-lg-3 col-12 mb-5">
-                                <figure className="chart" data-percent="50">
-                                    <figcaption>JavaScript</figcaption>
-                                    <img className="javascript" src={js} alt="bootstrap logo" width="100" height="100"/>
-                                    <svg width="200" height="200">
-                                        <circle className="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
-                                    </svg>
-                                </figure>
-                                <h5 className="text-white text-center mt-5">JavaScript</h5>
-                            </div>
-                            <div className="col-lg-3 col-12 mb-5">
-                                <figure className="chart" data-percent="50">
-                                    <figcaption>React</figcaption>
-                                    <img className="react" src={react} alt="react logo" width="100" height="100"/>
-                                    <svg width="200" height="200">
-                                        <circle className="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
-                                    </svg>
-                                </figure>
-                                <h5 className="text-white text-center mt-5">ReactJS</h5>
-                            </div>
-                        </div>
-                        <div className="row mt-4">
-                            <div className="col-lg-3"></div>
-                            <div className="col-lg-3 col-12">
-                                <figure className="chart" data-percent="75">
-                                    <figcaption>Bootstrap</figcaption>
-                                    <img className="bootstrap" src={bootstrap} alt="bootstrap logo" width="100" height="100"/>
-                                    <svg width="200" height="200">
-                                        <circle className="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
-                                    </svg>
-                                </figure>
-                                <h5 className="text-white text-center mt-5">Bootstrap</h5>
-                            </div>
-                            <div className="col-lg-3 col-12">
-                                <figure className="chart" data-percent="25">
-                                    <figcaption>Sass</figcaption>
-                                    <img className="sass" src={sass} alt="sass logo" width="100" height="100"/>
-                                    <svg width="200" height="200">
-                                        <circle className="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
-                                    </svg>
-                                </figure>
-                                <h5 className="text-white text-center mt-5">SASS</h5>
-                            </div>
-                            <div className="col-lg-3"></div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>

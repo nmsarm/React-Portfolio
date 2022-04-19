@@ -1,9 +1,18 @@
+// Animate on Scroll
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 // Card Component - Props
 const SkillCard = (props) => {
+    
+    useEffect(() => {
+        Aos.init({duration: 500});
+    }, []);
+
     return (
         <>
-            <div className="skills-card">
+            <div className="skills-card"  data-aos="flip-left">
                 <div className="skills-box">
                     <div className="skills-content">
                         <h2>{props.num}</h2>
