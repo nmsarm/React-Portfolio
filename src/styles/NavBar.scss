@@ -1,11 +1,14 @@
 @import 'Colors';
 
-button:hover {
-    transition: all .15s ease-in;
-}
-
 .contactBtn {
     background-color: $darkGreen!important;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: scale(1.05);
+        border-color: $darkGreen!important;
+        
+    }
 }
 /* Link Hover Underline Animation */
 
@@ -66,3 +69,7 @@ button:hover {
     color: #198754!important;
     font-weight: bold;
   } */
+
+
+
+ 
