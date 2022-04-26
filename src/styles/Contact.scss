@@ -19,6 +19,21 @@
 
 .btn-download {
     width: 35%;
-    // background-color: $lightGreen!important;
-    // border-color: $lightGreen!important;
+    color: white!important;
+    background-color: $darkBG!important;
+    border-color: $darkGreen!important;
+
+    &:hover {
+        background-color: $darkGreen!important;
+    }
+}
+
+.btn-submit {
+    color: white!important;
+    background-color: $darkBG!important;
+    border-color: $darkGreen!important;
+
+    &:hover {
+        background-color: $darkGreen!important;
+    }
 }

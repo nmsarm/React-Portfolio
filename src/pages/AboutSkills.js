@@ -22,9 +22,9 @@ import { useEffect } from 'react';
 const AboutSkills = () => {
 
     const SkillData = [
-        { key: 1, num: "01", title: "Web Design", txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" },
-        { key: 2, num: "02", title: "Front-End Development", txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" },
-        { key: 3, num: "03", title: "Project Management", txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" }
+        { key: 1, num: "01", title: "Web Development", txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" },
+        { key: 2, num: "02", title: "Mobile Development", txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" },
+        { key: 3, num: "03", title: "UI/UX Design", txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" }
     ];
 
     const TechData = [
@@ -51,7 +51,7 @@ const AboutSkills = () => {
         <div className="aboutSkills-container container-fluid">
             <div className="container">
                 <div className="aboutSkills container pa-heading-line-left row py-5 m-0">
-                    <h1 className="me-auto"> What I Do </h1>
+                    <h1 className="me-auto"  data-aos="fade-right"> What I Do </h1>
                     <div className="card-container mt-5">
                         {/* Map Data from SkillData Array */}
                         {SkillData.map((data) => (

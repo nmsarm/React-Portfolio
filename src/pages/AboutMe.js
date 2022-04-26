@@ -8,7 +8,16 @@ import iAc from '../assets/img/iacademy-logo.png';
 // Stylesheet
 import '../styles/AboutMe.scss'
 
+// Animate on Scroll
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const AboutMe = () =>{
+    
+    useEffect(() => {
+        Aos.init({duration: 500});
+    }, []);
 
     const TimelineData = [
         {   
@@ -21,7 +30,7 @@ const AboutMe = () =>{
             subtitle: "Application Development and Support Intern",
             txt: '• Currently learning Full-Stack Development\n' +
             '• Learned and developed websites using HTML, CSS, Bootstrap, JavaScript, React, Node/Express JS, and MongoDB\n' +
-            '• Attended Java Core, SQL, Python Basics, Git, and QA Processes and Tools trainings\n' +
+            '• Attended Java Core, SQL, Python, Git, and QA Processes and Tools trainings\n' +
             '• Studied the basics of Project Management, DevOps, Agile Development, ITIL, Data Science, Cloud Computing Fundamentals, and AWS\n' +
             '• Experienced working as a Team Lead/Scrum Master; Facilitated team scrum meetings'
         },
@@ -63,7 +72,7 @@ const AboutMe = () =>{
             height: "50", 
             heading: "iACADEMY", 
             subtitle: "Senior High School - Software Development - Technical Vocational Track",
-            txt: "Grade 12 Graduation Award - With High Honors"
+            txt: "Grade 12 - With High Honors"
         }
     ]
 
@@ -71,8 +80,8 @@ const AboutMe = () =>{
         <div className="aboutMe-container container-fluid">
             <div className="container">
                 <div className="aboutMe pa-heading-line-right row py-5">
-                    <h1> Who Am I </h1>
-                    <p className="text-white">
+                    <h1  data-aos="fade-left"> Who Am I </h1>
+                    <p className="text-white"  data-aos="fade-left">
                         I am <b> Daneah Marelle M. Sarmiento</b>, a 22-year old, 4th year Information Technology student at the University of Santo Tomas, specializing in Web and Mobile App Development. 
                         I am a detail-oriented and a keen observant individual, eager to learn about emerging technologies 
                         and acquire new skills and opportunities. I am interested towards learning and working with Web/Mobile App Design and Development, 

@@ -80,7 +80,7 @@ const Contact = () =>{
                             <Form.Control as="textarea" rows={5} placeholder="Enter message" name="message" autoComplete="off"/>
                         </Form.Group>
 
-                        <Button className="btn-success px-4 py-2" variant="primary" type="submit" >
+                        <Button className="btn-submit btn-success px-4 py-2" variant="primary" type="submit" >
                             Submit
                         </Button>
                     </Form>
