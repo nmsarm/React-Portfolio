@@ -67,21 +67,21 @@ const NavBar = () => {
                                     Home
                                 </p>
                             </Nav.Link>
-                            <Nav.Link href="#about" className={navbar ? "nav-link" : "nav-link offset-md-2"}>
+                            <Nav.Link href="#about" className={navbar ? "nav-link" : "nav-link offset-md-3"}>
                                 <p
                                     className={navbar ? "pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
                                 >
                                     About
                                 </p>
                             </Nav.Link>
-                            <Nav.Link href="#works" className={navbar ? "nav-link" : "nav-link offset-md-2"}>
+                            <Nav.Link href="#works" className={navbar ? "nav-link" : "nav-link offset-md-3"}>
                                 <p
                                     className={navbar ? "pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
                                 >
                                     Works
                                 </p>
                             </Nav.Link>
-                            <Nav.Link href="#contact" className={navbar ? "nav-link" : "offset-lg-10 pt-3"}>
+                            <Nav.Link href="#contact" className={navbar ? "nav-link" : "offset-lg-11 pt-3"}>
                                 {navbar ?
                                     <p
                                         className={navbar ? "pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
