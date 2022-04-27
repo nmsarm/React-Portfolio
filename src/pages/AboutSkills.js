@@ -1,3 +1,4 @@
+import React from 'react'
 // Stylesheet
 import '../styles/AboutSkills.scss'
 import SkillCard from '../components/SkillCard';
@@ -50,7 +51,7 @@ const AboutSkills = () => {
     return (
         <div className="aboutSkills-container container-fluid">
             <div className="container">
-                <div className="aboutSkills container pa-heading-line-left row py-5 m-0">
+                <div className="aboutSkills pa-heading-line-left row py-5 m-0">
                     <h1 className="me-auto"  data-aos="fade-right"> What I Do </h1>
                     <div className="card-container mt-5">
                         {/* Map Data from SkillData Array */}
@@ -64,7 +65,7 @@ const AboutSkills = () => {
                         ))}
                     </div>
                     <h2>Tools and Technologies Used</h2>
-                    <div className="tech-container container d-flex justify-content-center text-white mt-4 px-5">
+                    <div className="tech-container d-flex justify-content-center text-white mt-4 px-5">
                         {TechData.map((data) => (
                             <div className="logo-container text-center p-4" data-aos="fade-up">
                                 <img className="tech-logo pb-3" src={data.src} alt={data.alt}/>

@@ -1,3 +1,4 @@
+import React from 'react'
 // Stylesheet
 import '../styles/Works.scss'
 

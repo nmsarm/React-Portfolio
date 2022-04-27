@@ -9,34 +9,34 @@ const TimelineCard = (props) => {
     const newText = text.split('\n').map(str => <p className="timeline-text">{str}</p>);
 
     useEffect(() => {
-        Aos.init({duration: 500});
+        Aos.init({ duration: 500 });
     }, []);
 
     return (
-        <>
-             <li data-aos="fade-left">
-                <div className="timeline-content">
-                    <h5 className="date">{props.date}</h5>
-                    <div className="box"></div>
-                    <div className="row mb-2">
-                        <div className="col-2 col-lg-1">
-                            <img 
-                                src={props.src} 
-                                width={props.imgWidth} 
-                                height={props.imgHeight}
-                                alt={props.alt}
-                            />
-                        </div>
-                        <div className="col-10 col-lg-11 my-2">
-                            <h3>{props.heading}</h3>
-                        </div>
+
+        <li data-aos="fade-left">
+            <div className="timeline-content">
+                <h5 className="date">{props.date}</h5>
+                <div className="box"></div>
+                <div className="row mb-2">
+                    <div className="col-2 col-lg-1">
+                        <img
+                            src={props.src}
+                            width={props.imgWidth}
+                            height={props.imgHeight}
+                            alt={props.alt}
+                        />
                     </div>
-                    <h5><i>{props.subtitle}</i></h5>
-                    {newText}
+                    <div className="col-10 col-lg-11 my-2">
+                        <h3>{props.heading}</h3>
+                    </div>
                 </div>
-            
-            </li>
-        </>
+                <h5><i>{props.subtitle}</i></h5>
+                {newText}
+            </div>
+
+        </li>
+
     );
 }
 

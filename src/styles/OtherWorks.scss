@@ -1,0 +1,25 @@
+.otherWorks-container {
+    min-height: 90vh;
+    height: auto;
+
+    .section-title {
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .cards-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .project-card {
+            width: 40%;
+            margin: 2rem;
+
+            &:hover {
+                transform: scale(1.01);
+                transition: all .2s ease;
+            }
+        }
+
+    }
+}

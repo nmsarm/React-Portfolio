@@ -1,3 +1,4 @@
+import React from 'react'
 // Stylesheet
 import '../styles/Home.scss';
 import { Button } from 'react-bootstrap';
