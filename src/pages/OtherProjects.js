@@ -1,17 +1,17 @@
 import React from 'react'
 // Stylesheet
-import '../styles/OtherWorks.scss'
+import '../styles/OtherProjects.scss'
 
 //Cards
 import ElTomasinoCard from '../components/projects/ElTomasinoCard';
 
-const OtherWorks = () => {
+const OtherProjects = () => {
 
     return (
-        <div className="otherWorks-container container-fluid mb-5">
+        <div className="otherProjs-container container-fluid mb-5">
             <div className="container">
                 <div className="row py-5">
-                    <h1 className="section-title text-center">Other Works</h1>
+                    <h1 className="section-title text-center">Other Projects</h1>
                 </div>
                 <div className="row">
                     <div className="cards-container d-flex justify-content-center">
@@ -26,4 +26,4 @@ const OtherWorks = () => {
     );
 }
 
-export default OtherWorks
+export default OtherProjects

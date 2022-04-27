@@ -67,18 +67,18 @@ const NavBar = () => {
                                     Home
                                 </p>
                             </Nav.Link>
-                            <Nav.Link href="#about" className={navbar ? "nav-link" : "nav-link offset-md-3"}>
+                            <Nav.Link href="#about" className={navbar ? "nav-link" : "nav-link offset-md-2"}>
                                 <p
                                     className={navbar ? "pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
                                 >
                                     About
                                 </p>
                             </Nav.Link>
-                            <Nav.Link href="#works" className={navbar ? "nav-link" : "nav-link offset-md-3"}>
+                            <Nav.Link href="#works" className={navbar ? "nav-link" : "nav-link offset-md-2"}>
                                 <p
                                     className={navbar ? "pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
                                 >
-                                    Works
+                                    Projects
                                 </p>
                             </Nav.Link>
                             <Nav.Link href="#contact" className={navbar ? "nav-link" : "offset-lg-11 pt-3"}>
@@ -86,7 +86,7 @@ const NavBar = () => {
                                     <p
                                         className={navbar ? "pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
                                     >
-                                        Contact Me
+                                        Contact
                                     </p>
                                     :
                                     <button className="contactBtn btn-success rounded p-2 shadow" style={{ width: "120px" }}> Contact Me </button>

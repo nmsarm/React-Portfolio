@@ -58,7 +58,8 @@
 }
 
 .home-bg {
-    clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    // clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 33% 100%, 0 50%, 30% 0);
     background-color: $lightGreen;
 
     /*59b256*/

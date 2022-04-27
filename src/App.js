@@ -6,8 +6,8 @@ import Home from './pages/Home';
 import LatestWork from './pages/LatestWork';
 import AboutMe from './pages/AboutMe';
 import AboutSkills from './pages/AboutSkills';
-import Works from './pages/Works';
-import OtherWorks from './pages/OtherWorks';
+import Projects from './pages/Projects';
+import OtherProjects from './pages/OtherProjects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
@@ -29,8 +29,8 @@ function App() {
         <AboutSkills />
        </section>
        <section className="works-section anchor" id="works">
-        <Works />
-        <OtherWorks />
+        <Projects/>
+        <OtherProjects />
        </section>
        <section className="contact-section anchor" id="contact">
         <Contact />
