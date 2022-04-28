@@ -68,7 +68,7 @@ const DesignToHTMLCard = () => {
                     >
                         <Modal.Header className="bg-dark text-white">
                             <Modal.Title><h3>{data.title}</h3></Modal.Title>
-                            <CloseButton variant="white" />
+                            <CloseButton variant="white" onClick={handleClose}/>
                         </Modal.Header>
                         <Modal.Body>
                             <Carousel fade variant="dark">
