@@ -1,3 +1,5 @@
+@import 'Colors';
+
 .otherProjs-container {
     min-height: 90vh;
     height: auto;
@@ -5,6 +7,10 @@
     .section-title {
         font-size: 60px;
         font-weight: 700;
+    }
+
+    .projects-title2 {
+        color: $darkGreen;
     }
 
     .cards-container {

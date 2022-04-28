@@ -80,7 +80,7 @@ const AboutMe = () =>{
         <div className="aboutMe-container container-fluid">
             <div className="container">
                 <div className="aboutMe pa-heading-line-right row py-5">
-                    <h1  data-aos="fade-left"> Who Am I </h1>
+                    <h1 data-aos="fade-left"> Who Am I </h1>
                     <p className="text-white"  data-aos="fade-left">
                         I am <b> Daneah Marelle M. Sarmiento</b>, a 22-year old, 4th year Information Technology student at the University of Santo Tomas, specializing in Web and Mobile App Development. 
                         I am a detail-oriented and a keen observant individual, eager to learn about emerging technologies 
