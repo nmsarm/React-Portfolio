@@ -1,43 +1,48 @@
 import React, { useState } from 'react';
 import ProjectCard from '../ProjectCard';
-import DesignToHTML from '../../assets/img/projects/design-to-html/home.png';
-import About from '../../assets/img/projects/design-to-html/about-us.png';
-import Services from '../../assets/img/projects/design-to-html/services.png';
-import Contact from '../../assets/img/projects/design-to-html/contact.png';
+import Blogs from '../../assets/img/projects/blogs/blogs.png';
+import Article from '../../assets/img/projects/blogs/article.png';
+import Search from '../../assets/img/projects/blogs/search.png';
+import About from '../../assets/img/projects/blogs/about.png';
+import Create from '../../assets/img/projects/blogs/new-blog.png';
 
 import { Modal, CloseButton, Button, Carousel } from "react-bootstrap";
 
 const details = [
     {
-        src: DesignToHTML,
-        alt: "DesignToHTML Image",
-        title: "Design To HTML",
-        snippet: "A static and responsive website, replicating a Figma layout",
-        desc: "The project's objective is to replicate a Figma layout by making a static and responsive website." + 
-        "This is a project done during my internship at TELUS International Philippines, Inc."
+        src: Blogs,
+        alt: "Blogs Image",
+        title: "Blog Site",
+        snippet: "A blog site with CRUD functionalities",
+        desc: "The project is an activity given at our JavaScript class during my internship at TELUS International Philippines, Inc." +
+        " We were tasked to create a NodeJS blog site where the user can create, read, delete, and search blogs."
     }
 ];
 
 const images = [
     {
-        src: DesignToHTML,
-        alt: "Home Section"
+        src: Blogs,
+        alt: "Home Page"
+    },
+    {
+        src: Article,
+        alt: "Article Page"
+    },
+    {
+        src: Search,
+        alt: "Search Page"
     },
     {
         src: About,
-        alt: "About Us Section"
+        alt: "About Page"
     },
     {
-        src: Services,
-        alt: "Services Section"
-    },
-    {
-        src: Contact,
-        alt: "Contact Section"
+        src: Create,
+        alt: "Create Page"
     }
 ];
 
-const DesignToHTMLCard = () => {
+const BlogsCard = () => {
 
     const [xlShow, setXLShow] = useState(false);
 
@@ -84,9 +89,15 @@ const DesignToHTMLCard = () => {
                             <div className="project-details font-400">
                                 <p className="fw-bold mt-3">Description: </p>
                                 <p>{data.desc}</p>
+                                <p>Features:</p>
+                                <ol>
+                                    <li>Create Blog</li>
+                                    <li>Read Blog/s</li>
+                                    <li>Delete a Blog/Delete All Blogs</li>
+                                    <li>Search Blogs</li>
+                                </ol>
                                 <p className="fw-bold">Tools and Technologies Used:</p>
-                                <p>HTML, CSS, Bootstrap, Figma, and GitHub</p>
-                                
+                                <p>HTML, CSS, Bootstrap, Node/ExpressJS, EJS, MongoDB and GitHub</p>
                             </div>
                         </Modal.Body>
                         <Modal.Footer>
@@ -101,4 +112,4 @@ const DesignToHTMLCard = () => {
     );
 }
 
-export default DesignToHTMLCard
+export default BlogsCard

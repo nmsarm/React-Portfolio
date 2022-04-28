@@ -1,3 +1,5 @@
+import React from 'react'
+
 // Animate on Scroll
 import Aos from 'aos';
 import 'aos/dist/aos.css';

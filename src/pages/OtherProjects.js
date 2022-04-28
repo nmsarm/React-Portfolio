@@ -3,10 +3,10 @@ import React from 'react'
 import '../styles/OtherProjects.scss'
 
 //Cards
-import ElTomasinoCard from '../components/projects/ElTomasinoCard';
 import DesignToHTMLCard from '../components/projects/DesignToHTMLCard';
 import AxieGameCard from '../components/projects/AxieGameCard';
 import WeekendCard from '../components/projects/WeekendCard';
+import BlogsCard from '../components/projects/BlogsCard';
 
 const OtherProjects = () => {
 
@@ -20,8 +20,8 @@ const OtherProjects = () => {
                     <div className="cards-container d-flex justify-content-center">
                         <DesignToHTMLCard />
                         <AxieGameCard />
+                        <BlogsCard />
                         <WeekendCard />
-                        <ElTomasinoCard />
                     </div>
                 </div>
             </div>

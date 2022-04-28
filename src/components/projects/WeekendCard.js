@@ -104,6 +104,7 @@ const WeekendCard = () => {
                             <div className="project-details font-400">
                                 <p className="fw-bold mt-3">Description: </p>
                                 <p>{data.desc}</p>
+                                
                                 <p className="fw-bold">Tools and Technologies Used:</p>
                                 <p>HTML, CSS, Bootstrap, React, and GitHub</p>
                                 

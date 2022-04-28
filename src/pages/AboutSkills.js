@@ -69,7 +69,7 @@ const AboutSkills = () => {
                         {TechData.map((data) => (
                             <div className="logo-container text-center p-4" data-aos="fade-up">
                                 <img className="tech-logo pb-3" src={data.src} alt={data.alt}/>
-                                <p>{data.text}</p>
+                                <p className="font-400">{data.text}</p>
                             </div>
                         ))}
                     </div>

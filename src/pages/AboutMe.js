@@ -30,9 +30,9 @@ const AboutMe = () =>{
             subtitle: "Application Development and Support Intern",
             txt: '• Currently learning Full-Stack Development\n' +
             '• Learned and developed websites using HTML, CSS, Bootstrap, JavaScript, React, Node/Express JS, and MongoDB\n' +
-            '• Attended Java Core, SQL, Python, Git, and QA Processes and Tools trainings\n' +
+            '• Attended Java Core, SQL, Unix, Python, Git, and QA Processes and Tools trainings\n' +
             '• Studied the basics of Project Management, DevOps, Agile Development, ITIL, Data Science, Cloud Computing Fundamentals, and AWS\n' +
-            '• Experienced working as a Team Lead/Scrum Master; Facilitated team scrum meetings'
+            '• Experienced working as a Team Lead/Scrum Master'
         },
         {   
             key: 2, 
@@ -99,6 +99,7 @@ const AboutMe = () =>{
                                             <TimelineCard 
                                                 key={data.key}
                                                 src={data.src}
+                                                date={data.date}
                                                 imgWidth={data.width}
                                                 imgHeight={data.height}
                                                 heading={data.heading}

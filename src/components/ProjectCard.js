@@ -1,13 +1,24 @@
 import React from 'react'
 import { Card } from "react-bootstrap";
 
+// Animate on Scroll
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const ProjectCard = (props) => {
+
+    useEffect(() => {
+        Aos.init({ duration: 500 });
+    }, []);
+    
     return (
         <Card 
             className="project-card shadow" 
             onClick={props.onClick} 
             style={{cursor: "pointer"}} 
             title="Click to View Project"
+            data-aos="zoom-in"
         >
             <Card.Img 
                 variant="top" 
