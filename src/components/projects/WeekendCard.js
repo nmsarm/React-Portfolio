@@ -1,43 +1,63 @@
 import React, { useState } from 'react';
 import ProjectCard from '../ProjectCard';
-import DesignToHTML from '../../assets/img/projects/design-to-html/home.png';
-import About from '../../assets/img/projects/design-to-html/about-us.png';
-import Services from '../../assets/img/projects/design-to-html/services.png';
-import Contact from '../../assets/img/projects/design-to-html/contact.png';
+import Home from '../../assets/img/projects/weekend/home.png';
+import HomeModal from '../../assets/img/projects/weekend/home-modal.png';
+import Sat from '../../assets/img/projects/weekend/sat.png';
+import Sat2 from '../../assets/img/projects/weekend/sat-2.png';
+import Sat3 from '../../assets/img/projects/weekend/sat-3.png';
+import Sat4 from '../../assets/img/projects/weekend/sat-4.png';
+import Sun from '../../assets/img/projects/weekend/sun.png';
+import Sun2 from '../../assets/img/projects/weekend/sun-2.png';
 
 import { Modal, CloseButton, Button, Carousel } from "react-bootstrap";
 
 const details = [
     {
-        src: DesignToHTML,
-        alt: "DesignToHTML Image",
-        title: "Design To HTML",
-        snippet: "Created a static website, replicating a Figma layout",
-        desc: "The project's objective is to replicate a Figma layout by making a static and responsive website." + 
-        "This is a project done during my internship at TELUS International Philippines, Inc."
+        src: Home,
+        alt: "Weekend Summary Activity Image",
+        title: "Weekend Summary",
+        snippet: "A simple website containing the activities done during the weekend",
+        desc: "The purpose of the project is to create a website using the learnings from the ReactJS and CSS sessions during my internship at TELUS International Philippines, Inc." +
+        " The website features the activities done during the weekend."
     }
 ];
 
 const images = [
     {
-        src: DesignToHTML,
-        alt: "Home Section"
+        src: Home,
+        alt: "Home Page"
     },
     {
-        src: About,
-        alt: "About Us Section"
+        src: HomeModal,
+        alt: "Home Modal"
     },
     {
-        src: Services,
-        alt: "Services Section"
+        src: Sat,
+        alt: "Sat Page"
     },
     {
-        src: Contact,
-        alt: "Contact Section"
+        src: Sat2,
+        alt: "Sat Page"
+    },
+    {
+        src: Sat3,
+        alt: "Sat Page"
+    },
+    {
+        src: Sat4,
+        alt: "Sat Page"
+    },
+    {
+        src: Sun,
+        alt: "Sun Page"
+    },
+    {
+        src: Sun2,
+        alt: "Sun Page"
     }
 ];
 
-const DesignToHTMLCard = () => {
+const WeekendCard = () => {
 
     const [xlShow, setXLShow] = useState(false);
 
@@ -85,7 +105,7 @@ const DesignToHTMLCard = () => {
                                 <p className="fw-bold mt-3">Description: </p>
                                 <p>{data.desc}</p>
                                 <p className="fw-bold">Tools and Technologies Used:</p>
-                                <p>HTML, CSS, Bootstrap, Figma, and GitHub</p>
+                                <p>HTML, CSS, Bootstrap, React, and GitHub</p>
                                 
                             </div>
                         </Modal.Body>
@@ -101,4 +121,4 @@ const DesignToHTMLCard = () => {
     );
 }
 
-export default DesignToHTMLCard
+export default WeekendCard
