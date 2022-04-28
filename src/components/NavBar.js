@@ -10,7 +10,8 @@ import '../styles/NavBar.scss'
 const NavBar = () => {
 
     const [navbar, setNavbar] = useState(false);
-
+    const [isMobile, setIsMobile] = useState(false)
+ 
     const changeBackground = () => {
         if (window.scrollY >= 100) {
             setNavbar(true)
@@ -21,8 +22,6 @@ const NavBar = () => {
 
     window.addEventListener('scroll', changeBackground);
 
-    const [isMobile, setIsMobile] = useState(false)
- 
     //choose the screen size 
     const handleResize = () => {
     if (window.innerWidth < 995) {
