@@ -5,6 +5,7 @@ import '../styles/OtherProjects.scss'
 //Cards
 import ElTomasinoCard from '../components/projects/ElTomasinoCard';
 import DesignToHTMLCard from '../components/projects/DesignToHTMLCard';
+import AxieGameCard from '../components/projects/AxieGameCard';
 
 const OtherProjects = () => {
 
@@ -17,7 +18,7 @@ const OtherProjects = () => {
                 <div className="row">
                     <div className="cards-container d-flex justify-content-center">
                         <DesignToHTMLCard />
-                        <ElTomasinoCard />
+                        <AxieGameCard />
                         <DesignToHTMLCard />
                         <ElTomasinoCard />
                     </div>

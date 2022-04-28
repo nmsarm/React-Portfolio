@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 const ProjectCard = (props) => {
     return (
@@ -21,9 +21,6 @@ const ProjectCard = (props) => {
                 <Card.Text className="font-400">
                     {props.snippet}
                 </Card.Text>
-                {/* <Button variant="primary" onClick={props.onClick}>
-                    {props.btn}
-                </Button> */}
             </Card.Body>
         </Card>
     );
