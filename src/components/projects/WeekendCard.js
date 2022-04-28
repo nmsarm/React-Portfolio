@@ -18,7 +18,7 @@ const details = [
         title: "Weekend Summary",
         snippet: "A simple website containing the activities done during the weekend",
         desc: "The purpose of the project is to create a website using the learnings from the ReactJS and CSS sessions during my internship at TELUS International Philippines, Inc." +
-        " The website features the activities done during the weekend."
+            " The website features the activities done during the weekend."
     }
 ];
 
@@ -87,7 +87,7 @@ const WeekendCard = () => {
                     >
                         <Modal.Header className="bg-dark text-white">
                             <Modal.Title><h3 className="main-font">{data.title}</h3></Modal.Title>
-                            <CloseButton variant="white" onClick={handleClose}/>
+                            <CloseButton variant="white" onClick={handleClose} />
                         </Modal.Header>
                         <Modal.Body>
                             <Carousel fade variant="dark">
@@ -104,11 +104,16 @@ const WeekendCard = () => {
                             <div className="project-details font-400">
                                 <p className="fw-bold mt-3">Description: </p>
                                 <p>{data.desc}</p>
-                                
+
                                 <p className="fw-bold">Tools and Technologies Used:</p>
                                 <p>HTML, CSS, Bootstrap, React, and GitHub</p>
-                                
+
                             </div>
+                            <Button variant="dark" className="demo-btn main-font mt-2">
+                                <a className="text-white" href="https://nmsarm.github.io/React-Weekend/" target="__blank" style={{textDecoration: "none"}}>
+                                    Demo
+                                </a>
+                            </Button>
                         </Modal.Body>
                         <Modal.Footer>
                             <Button variant="success" onClick={handleClose} className="main-font">

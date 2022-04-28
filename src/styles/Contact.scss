@@ -25,6 +25,7 @@
 
     &:hover {
         background-color: $darkGreen!important;
+        transition: all .2s ease;
     }
 }
 
@@ -35,5 +36,6 @@
 
     &:hover {
         background-color: $darkGreen!important;
+        transition: all .2s ease;
     }
 }
