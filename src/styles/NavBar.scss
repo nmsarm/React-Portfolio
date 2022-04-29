@@ -2,6 +2,7 @@
 
 .contactBtn {
     background-color: $darkGreen!important;
+    transition: 0.5s;
 
     &:hover {
         box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;

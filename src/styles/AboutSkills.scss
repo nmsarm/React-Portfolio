@@ -136,9 +136,13 @@
 .tech-container {
   flex-direction: row;
   flex-wrap: wrap;
+  
+  .tech-logo {
+    transition: 0.5s;
 
-  .tech-logo:hover {
-    transform: scale(1.1);
-    transition: all .2s ease;
+    &:hover {
+      transform: scale(1.1);
+      transition: all .2s ease;
+    }
   }
 }
