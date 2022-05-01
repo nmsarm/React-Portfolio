@@ -12,7 +12,7 @@ const About = () => {
                     <div className="col-lg-6 col-sm-12">
                         <h2 className="fw-bold pb-2">Latest Work </h2>
                         <h4 className="fw-bold py-2" style={{ color: "#198754" }}>Developer Portfolio</h4>
-                        <p className="latestwork-desc"> I am currently working on this website! This project started during my internship at TELUS International Philippines, Inc.</p>
+                        <p className="latestwork-desc"> I am currently working on this website! This is a project during my internship at TELUS International Philippines, Inc.</p>
                         <div className="col-10 col-sm-10 pb-sm-4">
                             <button type="button" className="lw-btn btn btn-dark">HTML</button>
                             <button type="button" className="lw-btn btn btn-dark">SCSS</button>

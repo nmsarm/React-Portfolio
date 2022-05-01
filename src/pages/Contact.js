@@ -64,23 +64,23 @@ const Contact = () => {
                             <Form className="font-400" ref={form} onSubmit={sendEmail} >
                                 <Form.Group className="mb-3" controlId="formName">
                                     <Form.Label className="text-white">Name</Form.Label>
-                                    <Form.Control type="text" placeholder="Enter name" name="name" autoComplete="off" required/>
+                                    <Form.Control type="text" name="name" autoComplete="off" required/>
                                 </Form.Group>
 
                                 <Form.Group className="mb-3" controlId="formEmail">
                                     <Form.Label className="text-white">Email address</Form.Label>
-                                    <Form.Control type="email" placeholder="Enter email" name="email" autoComplete="off" required/>
+                                    <Form.Control type="email" name="email" autoComplete="off" required/>
                                 </Form.Group>
 
                                 <Form.Group className="mb-3" controlId="formSubject">
                                     <Form.Label className="text-white">Subject</Form.Label>
-                                    <Form.Control type="text" placeholder="Enter subject" name="subject" autoComplete="off" required/>
+                                    <Form.Control type="text" name="subject" autoComplete="off" required/>
                                 </Form.Group>
 
 
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label className="text-white">Leave me a message!</Form.Label>
-                                    <Form.Control as="textarea" rows={5} placeholder="Enter message" name="message" autoComplete="off" required/>
+                                    <Form.Control as="textarea" rows={5} name="message" autoComplete="off" required/>
                                 </Form.Group>
 
                                 <Button className="btn-submit btn-success px-4 py-2" variant="primary" type="submit" >
