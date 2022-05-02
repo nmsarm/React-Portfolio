@@ -54,7 +54,7 @@ const ElTomasino = () => {
             src: eltomasino9,
             alt: "About"
         }
-    
+
     ];
 
     return (
@@ -63,6 +63,7 @@ const ElTomasino = () => {
                 <div className="col-lg-7 col-sm-12">
                     <h1 className="fp-text fw-bold pb-2">Featured Project </h1>
                     <h3 className="fw-bold py-2" style={{ color: "#198754" }}>EL TOMASINO: A Web Application Dedicated in Promoting UST Athletes</h3>
+                    <h5>Project Manager / Developer </h5>
                     <div className="font-400">
                         <p>
                             A tailored content management platform created for the Institute of Physical Education and Athletics (IPEA)
@@ -70,30 +71,20 @@ const ElTomasino = () => {
                         </p>
                         <p className="fw-bold">Features:</p>
                         <ul>
-                            <li>Webpages for Athletes, Teams, Alumni, Game Schedules, Latest News,  Athlete Stories, About</li>
-                            <li>Registration Forms</li>
+                            <li>Webpages for Athletes, Teams, Alumni, Game Schedules, Latest News, Athlete Stories, About</li>
+                            <li>Registration Forms for Tryouts</li>
                             <li>Login/Forgot Password</li>
                             <li>CRUD Functionalities for Accounts and Content Management</li>
                             <li>Engagement Reports, Audit Logs, Archive</li>
                         </ul>
                         <p className="fw-bold">Tools and Technologies Used:</p>
                         <p>HTML, CSS, Bootstrap, React, Firebase, Nodemailer, and GitHub</p>
-                        <Button variant="dark" className="viewSite-btn main-font mt-2 font-400">
-                            <a className="text-white" href="https://el-tomasino.herokuapp.com/" target="__blank" style={{ textDecoration: "none" }}>
-                                View Main Website
-                            </a>
-                        </Button>
-                        <Button variant="dark" className="viewSite-btn main-font mt-2 font-400">
-                            <a className="text-white" href="https://el-tomasino.herokuapp.com/admin" target="__blank" style={{ textDecoration: "none" }}>
-                                View Admin Site
-                            </a>
-                        </Button>
                     </div>
                 </div>
                 <div className="col-lg-5 col-sm-12 d-flex align-items-center">
                     <Carousel fade variant="dark" controls={false}>
-                        {images.map((img) => (
-                            <Carousel.Item interval={2000}>
+                        {images.map((img, pos) => (
+                            <Carousel.Item interval={2000} key={pos}>
                                 <img
                                     className="d-block w-100"
                                     src={img.src}
@@ -102,6 +93,18 @@ const ElTomasino = () => {
                             </Carousel.Item>
                         ))}
                     </Carousel>
+                </div>
+                <div className="d-flex justify-content-center mt-4">
+                    <Button variant="dark" className="viewSite-btn main-font mt-2">
+                        <a className="text-white" href="https://el-tomasino.herokuapp.com/" target="__blank" style={{ textDecoration: "none" }}>
+                            View Main Website
+                        </a>
+                    </Button>
+                    <Button variant="dark" className="viewSite-btn main-font mt-2">
+                        <a className="text-white" href="https://el-tomasino.herokuapp.com/admin" target="__blank" style={{ textDecoration: "none" }}>
+                            View Admin Site
+                        </a>
+                    </Button>
                 </div>
             </div>
         </>

@@ -8,7 +8,8 @@ import { useEffect } from 'react';
 // Card Component - Props
 const TimelineCard = (props) => {
     const text = props.text;
-    const newText = text.split('\n').map(str => <p className="timeline-text">{str}</p>);
+    const newText = text.split('\n').map((str, pos) =>
+        <p className="timeline-text" key={pos}>{str}</p>);
 
     useEffect(() => {
         Aos.init({ duration: 500 });

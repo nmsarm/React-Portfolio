@@ -21,7 +21,6 @@ const AboutMe = () =>{
 
     const TimelineData = [
         {   
-            key: 1, 
             date: "February 2022 - Present", 
             src: telus, 
             width: "60", 
@@ -35,7 +34,6 @@ const AboutMe = () =>{
             '• Experienced working as a Team Lead/Scrum Master'
         },
         {   
-            key: 2, 
             date: "August 2018 - Present", 
             src: UST, 
             width: "50", 
@@ -49,7 +47,6 @@ const AboutMe = () =>{
             '• 1st year - 1st Semester, A.Y 2018 - 2019'
         },
         {   
-            key: 3, 
             date: "April 2018", 
             src: fireclay, 
             width: "50", 
@@ -65,7 +62,6 @@ const AboutMe = () =>{
             '• Learned and implemented Firebase Database/Cloud Storage through Android Studio' 
         },
         {   
-            key: 4, 
             date: "August 2016 - May 2018", 
             src: iAc, 
             width: "50", 
@@ -95,9 +91,9 @@ const AboutMe = () =>{
                             <div className="timeline-content col-12 col-lg-8 col-md-12">
                                 <div className="timeline">
                                     <ul>
-                                        {TimelineData.map((data) => (
+                                        {TimelineData.map((data, pos) => (
                                             <TimelineCard 
-                                                key={data.key}
+                                                key={pos}
                                                 src={data.src}
                                                 date={data.date}
                                                 imgWidth={data.width}
