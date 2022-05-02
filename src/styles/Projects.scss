@@ -1,16 +1,28 @@
 .projects-container {
-    height: 90vh;
+    min-height: 90vh;
+    height: auto;
 }
 
-.innerProj-container {
-    width: 80%;
-    height: 90%;
-    background-color: white;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    max-height: 100vh;
+.fp-text{
+    font-size: 60px;
 }
 
+.carousel-control-prev-icon {
+    margin-right: 90%;
+    width: 5vw;
+    height: 5vw;
+}
+
+.carousel-control-next-icon {
+    margin-left: 90%;
+    width: 5vw;
+    height: 5vw;
+}
+
+.viewSite-btn {
+    margin-right: 2rem;
+    &:hover {
+        transform: scale(1.02)!important;
+        transition: all .2s ease;
+    }
+}
