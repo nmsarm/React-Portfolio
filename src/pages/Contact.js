@@ -1,12 +1,14 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect} from 'react';
 import emailjs from '@emailjs/browser';
 
 // Stylesheet
 import '../styles/Contact.scss'
 import { Modal, Button, CloseButton, Form } from 'react-bootstrap';
-import CV from '../assets/files/sarmiento-daneah-cv.pdf';
+import CV from '../assets/files/Sarmiento-DaneahMarelle-CV.pdf';
 
 const Contact = () => {
+
+    const [isMobile, setIsMobile] = useState(false)
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -27,13 +29,27 @@ const Contact = () => {
         form.current.reset();
     };
 
+    //choose the screen size 
+    const handleResize = () => {
+        if (window.innerWidth < 995) {
+            setIsMobile(true)
+        } else {
+            setIsMobile(false)
+        }
+        }
+    
+        // create an event listener
+        useEffect(() => {
+            window.addEventListener("resize", handleResize)
+        })
+
     return (
         <>
-            <div className="c-bg"></div>
-            <div className="contact-container container-fluid d-flex align-items-center justify-content-center">
+            <div className={isMobile ? " " : "c-bg"}></div>
+            <div className="contact-container container-fluid d-flex align-items-center justify-content-center py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col px-5">
+                        <div className="col py-lg-5 pb-5">
                             <h1 className="contact-title text-white">Get in Touch</h1>
                             <p className="contact-desc text-white font-400 mt-4">
                                 Feel free to reach out for inquiries, invitations, or collaborations! :)
@@ -51,7 +67,7 @@ const Contact = () => {
                             </div>
                             <Button
                                 variant="success"
-                                className="btn-download rounded py-2 font-400"
+                                className="btn-download rounded py-lg-2 font-400"
                                 href={CV}
                                 download="Sarmiento-DaneahMarelle-CV.pdf"
                                 target="_blank"
@@ -60,7 +76,7 @@ const Contact = () => {
                             </Button>{' '}
 
                         </div>
-                        <div className="col">
+                        <div className="col pl-5">
                             <Form className="font-400" ref={form} onSubmit={sendEmail} >
                                 <Form.Group className="mb-3" controlId="formName">
                                     <Form.Label className="text-white">Name</Form.Label>
