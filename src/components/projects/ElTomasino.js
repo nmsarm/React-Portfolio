@@ -4,6 +4,7 @@ import eltomasino1 from '../../assets/img/projects/el-tomasino/el-tomasino1.png'
 import eltomasino2 from '../../assets/img/projects/el-tomasino/el-tomasino2.png';
 import eltomasino3 from '../../assets/img/projects/el-tomasino/el-tomasino3.png';
 import eltomasino4 from '../../assets/img/projects/el-tomasino/el-tomasino4.png';
+import eltomasino41 from '../../assets/img/projects/el-tomasino/el-tomasino4.1.png';
 import eltomasino5 from '../../assets/img/projects/el-tomasino/el-tomasino5.png';
 import eltomasino6 from '../../assets/img/projects/el-tomasino/el-tomasino6.png';
 import eltomasino7 from '../../assets/img/projects/el-tomasino/el-tomasino7.png';
@@ -28,6 +29,10 @@ const ElTomasino = () => {
         {
             src: eltomasino4,
             alt: "Tryouts"
+        },
+        {
+            src: eltomasino41,
+            alt: "Tryouts Form"
         },
         {
             src: eltomasino5,
