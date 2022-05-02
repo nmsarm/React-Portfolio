@@ -12,7 +12,7 @@ const About = () => {
                     <div className="col-lg-6 col-sm-12">
                         <h2 className="fw-bold pb-2">Latest Work </h2>
                         <h4 className="fw-bold py-2" style={{ color: "#198754" }}>Developer Portfolio</h4>
-                        <p className="latestwork-desc"> I am currently working on this website! This is a project during my internship at TELUS International Philippines, Inc.</p>
+                        <p className="latestwork-desc mb-lg-5"> I am currently working on this website! This is a project during my internship at TELUS International Philippines, Inc.</p>
                         <div className="col-10 col-sm-10 mb-4">
                             <button type="button" className="lw-btn btn btn-dark">HTML</button>
                             <button type="button" className="lw-btn btn btn-dark">SCSS</button>
@@ -22,19 +22,18 @@ const About = () => {
                             <button type="button" className="lw-btn btn btn-dark">GitHub</button>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-sm-12">
-                        <div class="terminal-window">
-                            <div class="terminal-title">
-                                <div class="terminal-title-btn">
-                                    <span class="btn-closebtn">&#x02022;</span>
-                                    <span class="btn-mini">&#x02022;</span>
-                                    <span class="btn-max">&#x02022;</span>
+                    <div className="col-lg-6 col-sm-12 d-flex align-items-center">
+                        <div className="terminal-window">
+                            <div className="terminal-title">
+                                <div className="terminal-title-btn">
+                                    <span className="btn-closebtn">&#x02022;</span>
+                                    <span className="btn-mini">&#x02022;</span>
+                                    <span className="btn-max">&#x02022;</span>
                                 </div>
                                 <div></div>
                             </div>
-                            <div class="terminal-console">
+                            <div className="terminal-console">
                                 <img className="lw-img" src={Portfolio} />
-                                {/* width="510" height="295" */}
                             </div>
                         </div>
                     </div>
