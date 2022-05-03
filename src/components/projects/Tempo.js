@@ -74,7 +74,7 @@ const Tempo = () => {
 
     return (
         <>
-            <div className="row mx-5 my-3 py-5 px-4">
+            <div className="project row mx-5 my-3 py-5 px-4">
                 <div className="col-lg-7 col-sm-12">
                     <h1 className="fp-text fw-bold pb-2">Featured Project </h1>
                     <h3 className="fw-bold py-2" style={{ color: "#198754" }}>

@@ -8,9 +8,19 @@ import Tempo from '../components/projects/Tempo';
 import '../styles/Projects.scss'
 import { Carousel } from "react-bootstrap";
 
+// Animate on Scroll
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Projects = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 700 });
+    }, []);
+
     return (
-        <div className="projects-container container-fluid d-flex justify-content-center align-items-center px-5">
+        <div className="projects-container container-fluid d-flex justify-content-center align-items-center px-5" data-aos="zoom-out">
             <Carousel variant="dark" interval={null}>
                 <Carousel.Item>
                     <ElTomasino />

@@ -4,8 +4,22 @@
     min-height: 90vh;
     height: auto;
 
+    .project {
+        @include xs {
+            padding-right: 0px!important;
+            padding-left: 0px!important;
+            margin-right: 0px!important;
+            margin-left: 0px!important;
+        }
+    }
+
     .fp-text {
         font-size: 60px;
+
+        @include xs {
+            font-size: 50px;
+            text-align: center;
+        }
     }
 
     h5 {
@@ -59,4 +73,3 @@
         }
     }
 }
-
