@@ -29,17 +29,17 @@ const AboutSkills = () => {
         { 
             num: "01", 
             title: "Web Development", 
-            txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" 
+            txt: "I am knowledgeable in Front-end development and currently developing my skills towards Full Stack Development." 
         },
         { 
             num: "02", 
             title: "Mobile Development", 
-            txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" 
+            txt: "I have basic experience in developing simple mobile applications using Java and Android Studio." 
         },
         { 
             num: "03", 
-            title: "UI/UX Design", 
-            txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" 
+            title: "UI Design", 
+            txt: "I can design and create useful user interfaces with my strong attention to detail." 
         }
     ];
 

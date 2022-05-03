@@ -27,7 +27,7 @@ const AboutMe = () =>{
             height: "40", 
             heading: "TELUS International Philippines, Inc.", 
             subtitle: "Application Development and Support Intern",
-            txt: '• Currently learning Full-Stack Development\n' +
+            txt: '• Trained to be a Full-Stack Developer\n' +
             '• Learned and developed websites using HTML, CSS, Bootstrap, JavaScript, React, Node/Express JS, and MongoDB\n' +
             '• Attended Java Core, SQL, Unix, Python, Git, and QA Processes and Tools trainings\n' +
             '• Studied the basics of Project Management, DevOps, Agile Development, ITIL, Data Science, Cloud Computing Fundamentals, and AWS\n' +

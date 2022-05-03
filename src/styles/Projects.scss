@@ -1,28 +1,29 @@
 .projects-container {
     min-height: 90vh;
     height: auto;
-}
 
-.fp-text{
-    font-size: 60px;
-}
+    .fp-text {
+        font-size: 60px;
+    }
 
-.carousel-control-prev-icon {
-    margin-right: 90%;
-    width: 5vw;
-    height: 5vw;
-}
+    .carousel-control-prev-icon {
+        margin-right: 90%;
+        width: 5vw;
+        height: 5vw;
+    }
 
-.carousel-control-next-icon {
-    margin-left: 90%;
-    width: 5vw;
-    height: 5vw;
-}
+    .carousel-control-next-icon {
+        margin-left: 90%;
+        width: 5vw;
+        height: 5vw;
+    }
 
-.viewSite-btn {
-    margin-right: 2rem;
-    &:hover {
-        transform: scale(1.02)!important;
-        transition: all .2s ease;
+    .viewSite-btn {
+        margin-right: 2rem;
+
+        &:hover {
+            transform: scale(1.02) !important;
+            transition: all .2s ease;
+        }
     }
 }
