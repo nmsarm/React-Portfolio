@@ -12,11 +12,11 @@ import { Modal, CloseButton, Button, Carousel } from "react-bootstrap";
 const details = [
     {
         src: Axie,
-        alt: "Axie Memory Game Image",
-        title: "Axie Matching/Memory Game",
+        alt: "Axie Matching Game Image",
+        title: "Axie Matching Game",
         snippet: "A simple game made with React",
         desc: "The project is an activity for our elective class at UST. We are tasked to create a simple game using the components, props, and states of React." +
-        "The game includes the features of a matching/memory game.",
+            "The game includes the features of a matching/memory game.",
     }
 ];
 
@@ -112,11 +112,15 @@ const AxieGameCard = () => {
                                 </ol>
                                 <p className="fw-bold">Tools and Technologies Used:</p>
                                 <p>HTML, SCSS, Bootstrap, React, and GitHub</p>
-
                             </div>
                         </Modal.Body>
-                        <Modal.Footer>
-                            <Button variant="success" onClick={handleClose} className="main-font">
+                        <Modal.Footer className="justify-content-between">
+                            <Button variant="success" className="modal-btn main-font">
+                                <a className="text-white" href="https://axie-matching-game.herokuapp.com" target="__blank" style={{ textDecoration: "none" }}>
+                                    Demo
+                                </a>
+                            </Button>
+                            <Button variant="dark" onClick={handleClose} className="modal-btn main-font">
                                 Close
                             </Button>
                         </Modal.Footer>

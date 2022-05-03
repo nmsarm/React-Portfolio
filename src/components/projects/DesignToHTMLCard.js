@@ -13,8 +13,8 @@ const details = [
         alt: "DesignToHTML Image",
         title: "Design To HTML",
         snippet: "A static and responsive website, replicating a Figma layout",
-        desc: "The project's objective is to replicate a Figma layout by making a static and responsive website." + 
-        "This is a project done during my internship at TELUS International Philippines, Inc."
+        desc: "The project's objective is to replicate a Figma layout by making a static and responsive website." +
+            "This is a project done during my internship at TELUS International Philippines, Inc."
     }
 ];
 
@@ -67,7 +67,7 @@ const DesignToHTMLCard = () => {
                     >
                         <Modal.Header className="bg-dark text-white">
                             <Modal.Title><h3 className="main-font">{data.title}</h3></Modal.Title>
-                            <CloseButton variant="white" onClick={handleClose}/>
+                            <CloseButton variant="white" onClick={handleClose} />
                         </Modal.Header>
                         <Modal.Body>
                             <Carousel fade variant="dark">
@@ -86,11 +86,16 @@ const DesignToHTMLCard = () => {
                                 <p>{data.desc}</p>
                                 <p className="fw-bold">Tools and Technologies Used:</p>
                                 <p>HTML, CSS, Bootstrap, Figma, and GitHub</p>
-                                
+
                             </div>
                         </Modal.Body>
-                        <Modal.Footer>
-                            <Button variant="success" onClick={handleClose} className="main-font">
+                        <Modal.Footer className="justify-content-between">
+                            <Button variant="success" className="modal-btn main-font">
+                                <a className="text-white" href="https://designtohtml-agency-site.herokuapp.com" target="__blank" style={{ textDecoration: "none" }}>
+                                    Demo
+                                </a>
+                            </Button>
+                            <Button variant="dark" onClick={handleClose} className="modal-btn main-font">
                                 Close
                             </Button>
                         </Modal.Footer>

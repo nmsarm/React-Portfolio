@@ -15,7 +15,7 @@ const details = [
         title: "Blog Site",
         snippet: "A blog site with CRUD functionalities",
         desc: "The project is an activity given at our JavaScript class during my internship at TELUS International Philippines, Inc." +
-        " We were tasked to create a NodeJS blog site where the user can create, read, delete, and search blogs."
+            " We were tasked to create a NodeJS blog site where the user can create, read, delete, and search blogs."
     }
 ];
 
@@ -72,7 +72,7 @@ const BlogsCard = () => {
                     >
                         <Modal.Header className="bg-dark text-white">
                             <Modal.Title><h3 className="main-font">{data.title}</h3></Modal.Title>
-                            <CloseButton variant="white" onClick={handleClose}/>
+                            <CloseButton variant="white" onClick={handleClose} />
                         </Modal.Header>
                         <Modal.Body>
                             <Carousel fade variant="dark">
@@ -100,8 +100,13 @@ const BlogsCard = () => {
                                 <p>HTML, CSS, Bootstrap, Node/ExpressJS, EJS, MongoDB and GitHub</p>
                             </div>
                         </Modal.Body>
-                        <Modal.Footer>
-                            <Button variant="success" onClick={handleClose} className="main-font">
+                        <Modal.Footer className="justify-content-between">
+                            <Button variant="success" className="modal-btn main-font">
+                                <a className="text-white" href="https://blogsite-exercise.herokuapp.com" target="__blank" style={{ textDecoration: "none" }}>
+                                    Demo
+                                </a>
+                            </Button>
+                            <Button variant="dark" onClick={handleClose} className="modal-btn main-font">
                                 Close
                             </Button>
                         </Modal.Footer>

@@ -109,14 +109,14 @@ const WeekendCard = () => {
                                 <p>HTML, CSS, Bootstrap, React, and GitHub</p>
 
                             </div>
-                            <Button variant="dark" className="demo-btn main-font mt-2">
-                                <a className="text-white" href="https://nmsarm.github.io/React-Weekend/" target="__blank" style={{textDecoration: "none"}}>
+                        </Modal.Body>
+                        <Modal.Footer className="justify-content-between">
+                            <Button variant="success" className="modal-btn main-font">
+                                <a className="text-white" href="https://nmsarm.github.io/React-Weekend/" target="__blank" style={{ textDecoration: "none" }}>
                                     Demo
                                 </a>
                             </Button>
-                        </Modal.Body>
-                        <Modal.Footer>
-                            <Button variant="success" onClick={handleClose} className="main-font">
+                            <Button variant="dark" onClick={handleClose} className="modal-btn main-font">
                                 Close
                             </Button>
                         </Modal.Footer>
