@@ -14,6 +14,9 @@ import firebase from '../assets/img/skills/firebase.png';
 import python from '../assets/img/skills/python.png';
 import php from '../assets/img/skills/php.png';
 import java from '../assets/img/skills/java.png';
+import androidstudio from '../assets/img/skills/androidstudio.png';
+import github from '../assets/img/skills/github.png';
+import vscode from '../assets/img/skills/vscode.png';
 
 // Animate on Scroll
 import Aos from 'aos';
@@ -41,6 +44,9 @@ const AboutSkills = () => {
         { src: python, alt: "python logo", text: "Python" },
         { src: php, alt: "php logo", text: "PHP" },
         { src: java, alt: "java logo", text: "Java" },
+        { src: androidstudio, alt: "androidstudio logo", text: "Android Studio" },
+        { src: github, alt: "github logo", text: "GitHub" },
+        { src: vscode, alt: "vscode logo", text: "VSCode" }
     ];
 
     useEffect(() => {
