@@ -13,7 +13,7 @@ const details = [
     {
         src: Axie,
         alt: "Axie Memory Game Image",
-        title: "Axie Memory Game",
+        title: "Axie Matching/Memory Game",
         snippet: "A simple game made with React",
         desc: "The project is an activity for our elective class at UST. We are tasked to create a simple game using the components, props, and states of React." +
         "The game includes the features of a matching/memory game.",

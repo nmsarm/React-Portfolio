@@ -80,7 +80,7 @@ const ChoKoreanMart = () => {
                     <h3 className="fw-bold py-2" style={{ color: "#198754" }}>
                         POS with Inventory Management for CHO Korean Mart
                     </h3>
-                    <h5>Project Manager / Developer </h5>
+                    <h5 className="fst-italic fw-light">Project Manager / Developer </h5>
                     <div className="font-400">
                         <p>
                             A POS system with Inventory management created for the business, CHO Korean Mart. The overall purpose of this project is to provide a standalone application that allows the
