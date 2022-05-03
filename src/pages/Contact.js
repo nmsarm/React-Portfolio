@@ -1,10 +1,10 @@
 import React, { useRef, useState, useEffect} from 'react';
 import emailjs from '@emailjs/browser';
+import { Modal, Button, CloseButton, Form } from 'react-bootstrap';
+import CV from '../assets/files/Sarmiento-DaneahMarelle-CV.pdf';
 
 // Stylesheet
 import '../styles/Contact.scss'
-import { Modal, Button, CloseButton, Form } from 'react-bootstrap';
-import CV from '../assets/files/Sarmiento-DaneahMarelle-CV.pdf';
 
 const Contact = () => {
 
@@ -49,7 +49,7 @@ const Contact = () => {
             <div className="contact-container container-fluid d-flex align-items-center justify-content-center py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col py-lg-5 pb-5">
+                        <div className={isMobile ? "col-lg-6 col-sm-12 py-lg-5 pb-5 text-center" : "col-lg-6 col-sm-12 py-lg-5 pb-5" }>
                             <h1 className="contact-title text-white">Get in Touch</h1>
                             <p className="contact-desc text-white font-400 mt-4">
                                 Feel free to reach out for inquiries, invitations, or collaborations! :)
@@ -67,7 +67,7 @@ const Contact = () => {
                             </div>
                             <Button
                                 variant="success"
-                                className="btn-download rounded py-lg-2 font-400"
+                                className="btn-download rounded py-lg-2"
                                 href={CV}
                                 download="Sarmiento-DaneahMarelle-CV.pdf"
                                 target="_blank"
@@ -76,27 +76,27 @@ const Contact = () => {
                             </Button>{' '}
 
                         </div>
-                        <div className="col pl-5">
-                            <Form className="font-400" ref={form} onSubmit={sendEmail} >
+                        <div className="col pl-5 mx-4">
+                            <Form ref={form} onSubmit={sendEmail} >
                                 <Form.Group className="mb-3" controlId="formName">
-                                    <Form.Label className="text-white">Name</Form.Label>
+                                    <Form.Label className="text-white font-400">Name</Form.Label>
                                     <Form.Control type="text" name="name" autoComplete="off" required/>
                                 </Form.Group>
 
                                 <Form.Group className="mb-3" controlId="formEmail">
-                                    <Form.Label className="text-white">Email address</Form.Label>
+                                    <Form.Label className="text-white font-400">Email address</Form.Label>
                                     <Form.Control type="email" name="email" autoComplete="off" required/>
                                 </Form.Group>
 
                                 <Form.Group className="mb-3" controlId="formSubject">
-                                    <Form.Label className="text-white">Subject</Form.Label>
+                                    <Form.Label className="text-white font-400">Subject</Form.Label>
                                     <Form.Control type="text" name="subject" autoComplete="off" required/>
                                 </Form.Group>
 
 
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                                    <Form.Label className="text-white">Leave me a message!</Form.Label>
-                                    <Form.Control as="textarea" rows={5} name="message" autoComplete="off" required/>
+                                    <Form.Label className="text-white font-400">Leave me a message!</Form.Label>
+                                    <Form.Control as="textarea" rows={4} name="message" autoComplete="off" required/>
                                 </Form.Group>
 
                                 <Button className="btn-submit btn-success px-4 py-2" variant="primary" type="submit" >

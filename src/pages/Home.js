@@ -59,36 +59,6 @@ const Home = () =>{
                 <div className="home-bg"></div>
                 <img className="home-img pt-5" src={Img} alt="Img"/>
             </div>
-            {/* <div className="intro-container container">
-                <div className="row">
-                    <div className="home-col1 col">
-                        <h3 className="home-subtitle text-white">Hello!</h3>
-                        <h1 className="home-title text-white">I’m <span className="text-success">Daneah Sarmiento</span></h1>
-                        <p className="home-description text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel eros blandit sem efficitur venenatis eu id urna.</p>
-
-                        <div className="mb-4">
-                            <a className="btn btn-outline-light btn-floating px-3 mx-1" href="#!" role="button"
-                                ><i className="fa fa-facebook-f"></i
-                            ></a>
-                            <a className="btn btn-outline-light btn-floating px-3 mx-4" href="#!" role="button"
-                                ><i className="fa fa-instagram"></i
-                            ></a>
-                            <a className="btn btn-outline-light btn-floating px-3 mx-1" href="#!" role="button"
-                                ><i className="fa fa-linkedin"></i
-                            ></a> 
-                            <a className="btn btn-outline-light btn-floating px-3 mx-4" href="#!" role="button"
-                                ><i className="fa fa-github"></i
-                            ></a>
-                        </div>
-
-                        <button className="btn-success rounded px-4 py-2"> View My Works </button>
-
-                    </div>
-                    <div className="col d-flex align-items-center justify-content-center">
-                        <img className="home-img pt-5" src={Img} alt="Img"/>
-                    </div>
-                </div>
-            </div> */}
         </div>
     );
 }
