@@ -26,27 +26,99 @@ import { useEffect } from 'react';
 const AboutSkills = () => {
 
     const SkillData = [
-        { num: "01", title: "Web Development", txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" },
-        { num: "02", title: "Mobile Development", txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" },
-        { num: "03", title: "UI/UX Design", txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" }
+        { 
+            num: "01", 
+            title: "Web Development", 
+            txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" 
+        },
+        { 
+            num: "02", 
+            title: "Mobile Development", 
+            txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" 
+        },
+        { 
+            num: "03", 
+            title: "UI/UX Design", 
+            txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?" 
+        }
     ];
 
     const TechData = [
-        { src: html, alt: "html logo", text: "HTML" },
-        { src: css, alt: "css logo", text: "CSS" },
-        { src: js, alt: "html logo", text: "JavaScript" },
-        { src: react, alt: "react logo", text: "React" },
-        { src: bootstrap, alt: "bootstrap logo", text: "Bootstrap" },
-        { src: sass, alt: "sass logo", text: "SASS" },
-        { src: node, alt: "nodejs logo", text: "Node.js" },
-        { src: mongo, alt: "mongodb logo", text: "MongoDB" },
-        { src: firebase, alt: "firebase logo", text: "Firebase" },
-        { src: python, alt: "python logo", text: "Python" },
-        { src: php, alt: "php logo", text: "PHP" },
-        { src: java, alt: "java logo", text: "Java" },
-        { src: androidstudio, alt: "androidstudio logo", text: "Android Studio" },
-        { src: github, alt: "github logo", text: "GitHub" },
-        { src: vscode, alt: "vscode logo", text: "VSCode" }
+        { 
+            src: html, 
+            alt: "html logo", 
+            text: "HTML" 
+        },
+        { 
+            src: css, 
+            alt: "css logo", 
+            text: "CSS" 
+        },
+        { 
+            src: js, 
+            alt: "html logo", 
+            text: "JavaScript" 
+        },
+        { 
+            src: react, 
+            alt: "react logo", 
+            text: "React" 
+        },
+        { 
+            src: bootstrap, 
+            alt: "bootstrap logo", 
+            text: "Bootstrap" 
+        },
+        { 
+            src: sass, 
+            alt: "sass logo", 
+            text: "SASS" 
+        },
+        { 
+            src: node, 
+            alt: "nodejs logo", 
+            text: "Node.js" 
+        },
+        { 
+            src: mongo, 
+            alt: "mongodb logo", 
+            text: "MongoDB" 
+        },
+        { 
+            src: firebase, 
+            alt: "firebase logo", 
+            text: "Firebase" 
+        },
+        { 
+            src: python, 
+            alt: "python logo", 
+            text: "Python" 
+        },
+        { 
+            src: php, 
+            alt: "php logo", 
+            text: "PHP" 
+        },
+        { 
+            src: java, 
+            alt: "java logo", 
+            text: "Java" 
+        },
+        { 
+            src: androidstudio, 
+            alt: "androidstudio logo", 
+            text: "Android Studio" 
+        },
+        { 
+            src: github, 
+            alt: "github logo", 
+            text: "GitHub" 
+        },
+        { 
+            src: vscode, 
+            alt: "vscode logo", 
+            text: "VSCode" 
+        }
     ];
 
     useEffect(() => {
