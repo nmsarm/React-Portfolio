@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.bcee0b8d.css",
-    "main.js": "/React-Portfolio/static/js/main.b0a7765e.js",
+    "main.css": "/React-Portfolio/static/css/main.ecdcfc02.css",
+    "main.js": "/React-Portfolio/static/js/main.0b4cde62.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/el-tomasino1.png": "/React-Portfolio/static/media/el-tomasino1.85fa30d06eb3262d96f8.png",
-    "static/media/portfolio.png": "/React-Portfolio/static/media/portfolio.14524d6a2ee6219675b2.png",
     "static/media/el-tomasino2.png": "/React-Portfolio/static/media/el-tomasino2.3b9938906893486b8010.png",
     "static/media/about-us.png": "/React-Portfolio/static/media/about-us.85e31f1c175d7def63bd.png",
+    "static/media/portfolio.png": "/React-Portfolio/static/media/portfolio.2ac78d9c9bcb8e1b5e7d.png",
     "static/media/main-game1.png": "/React-Portfolio/static/media/main-game1.b00faab3c88dd11cb8ff.png",
     "static/media/services.png": "/React-Portfolio/static/media/services.f3ea0d7b74921216485f.png",
     "static/media/home.png": "/React-Portfolio/static/media/home.fbe61cc3422372fed1ed.png",
@@ -71,12 +71,12 @@
     "static/media/checklist-new.jpg": "/React-Portfolio/static/media/checklist-new.d68ba99d1c27324595e8.jpg",
     "static/media/telus-logo.png": "/React-Portfolio/static/media/telus-logo.8b4e02f29e045eb01b01.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.bcee0b8d.css.map": "/React-Portfolio/static/css/main.bcee0b8d.css.map",
-    "main.b0a7765e.js.map": "/React-Portfolio/static/js/main.b0a7765e.js.map",
+    "main.ecdcfc02.css.map": "/React-Portfolio/static/css/main.ecdcfc02.css.map",
+    "main.0b4cde62.js.map": "/React-Portfolio/static/js/main.0b4cde62.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcee0b8d.css",
-    "static/js/main.b0a7765e.js"
+    "static/css/main.ecdcfc02.css",
+    "static/js/main.0b4cde62.js"
   ]
 }
