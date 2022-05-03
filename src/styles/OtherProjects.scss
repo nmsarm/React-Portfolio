@@ -1,4 +1,5 @@
 @import 'Colors';
+@import 'MediaQueries';
 
 .otherProjs-container {
     min-height: 90vh;
@@ -21,10 +22,31 @@
             width: 40%;
             margin: 2rem;
             transition: 0.5s;
+            cursor: pointer;
 
             &:hover {
                 transform: scale(1.01);
                 transition: all .2s ease;
+            }
+
+            @include xs {
+                width: 100%;
+            }
+
+            @include sm {
+                width: 80%;
+            }
+
+            @include md {
+                width: 70%;
+            }
+        
+            @include lg {
+                width: 40%;
+            }
+        
+            @include xl {
+                width: 40%;
             }
         }
 

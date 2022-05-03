@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 // Stylesheet
 import '../styles/AboutSkills.scss'
 import SkillCard from '../components/SkillCard';
@@ -21,7 +21,6 @@ import vscode from '../assets/img/skills/vscode.png';
 // Animate on Scroll
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 const AboutSkills = () => {
 
@@ -121,6 +120,21 @@ const AboutSkills = () => {
         }
     ];
 
+    const [isMobile, setIsMobile] = useState(false)
+
+    //choose the screen size 
+    const handleResize = () => {
+        if (window.innerWidth < 768) {
+            setIsMobile(true)
+        } else {
+            setIsMobile(false)
+        }
+    }
+
+    // create an event listener
+    useEffect(() => {
+        window.addEventListener("resize", handleResize)
+    })
     useEffect(() => {
         Aos.init({duration: 500});
     }, []);
@@ -129,7 +143,7 @@ const AboutSkills = () => {
     return (
         <div className="aboutSkills-container container-fluid">
             <div className="container">
-                <div className="aboutSkills pa-heading-line-left row py-5 m-0">
+                <div className={isMobile ? "aboutSkills row py-5" : "aboutSkills pa-heading-line-left row py-5"}>
                     <h1 className="me-auto"  data-aos="fade-right"> What I Do </h1>
                     <div className="card-container mt-5">
                         {/* Map Data from SkillData Array */}

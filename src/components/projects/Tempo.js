@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import { Carousel, Button } from "react-bootstrap";
 import splash from '../../assets/img/projects/tempo/splashscreen.jpg';
 import calendar from '../../assets/img/projects/tempo/calendar.jpg';
@@ -56,6 +56,22 @@ const Tempo = () => {
         }
     ];
 
+    const [isMobile, setIsMobile] = useState(false)
+
+    //choose the screen size 
+    const handleResize = () => {
+        if (window.innerWidth < 768) {
+            setIsMobile(true)
+        } else {
+            setIsMobile(false)
+        }
+    }
+
+    // create an event listener
+    useEffect(() => {
+        window.addEventListener("resize", handleResize)
+    })
+
     return (
         <>
             <div className="row mx-5 my-3 py-5 px-4">
@@ -65,7 +81,7 @@ const Tempo = () => {
                         Tempo
                     </h3>
                     <h5 className="fst-italic fw-light">Developer </h5>
-                    <div className="font-400">
+                    <div className="fp-desc font-400">
                         <p>
                             A Task Management Application that can help a user be organize with his works. 
                             This app helps the user be reminded of the tasks that needs to be done.
@@ -88,9 +104,9 @@ const Tempo = () => {
                         {images.map((img, pos) => (
                             <Carousel.Item interval={2000} key={pos}>
                                 <img
+                                    className="tempo-img"
                                     src={img.src}
                                     alt={img.alt}
-                                    width="250"
                                 />
                             </Carousel.Item>
                         ))}

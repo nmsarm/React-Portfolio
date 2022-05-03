@@ -16,7 +16,6 @@ const ProjectCard = (props) => {
         <Card 
             className="project-card shadow" 
             onClick={props.onClick} 
-            style={{cursor: "pointer"}} 
             title="Click to View Project"
             data-aos="zoom-in"
         >

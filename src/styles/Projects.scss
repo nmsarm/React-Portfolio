@@ -1,9 +1,23 @@
+@import 'MediaQueries';
+
 .projects-container {
     min-height: 90vh;
     height: auto;
 
     .fp-text {
         font-size: 60px;
+    }
+
+    h5 {
+        @include xs {
+            font-size: 16px;
+        }
+    }
+
+    .fp-desc {
+        @include xs {
+            font-size: 14px;
+        }
     }
 
     .carousel-control-prev-icon {
@@ -25,5 +39,24 @@
             transform: scale(1.02) !important;
             transition: all .2s ease;
         }
+
+        @include xs {
+            margin-right: 0.3rem;
+        }
+
+        a {
+            @include xs {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .tempo-img {
+        width: 250px;
+
+        @include xs {
+            width: 150px;
+        }
     }
 }
+

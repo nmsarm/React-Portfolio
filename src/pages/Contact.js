@@ -55,7 +55,7 @@ const Contact = () => {
                                 Feel free to reach out for inquiries, invitations, or collaborations! :)
                             </p>
                             <div className="mt-5 mb-4">
-                                <a className="socmed-btn btn btn-outline-light btn-floating px-3" href="mailto:daneahsarmiento@gmail.com?" target="__blank" role="button"
+                                <a className="socmed-btn btn btn-outline-light btn-floating px-3 text-center" href="mailto:daneahsarmiento@gmail.com?" target="__blank" role="button"
                                 ><i className="fa fa-envelope"></i
                                 ></a>
                                 <a className="socmed-btn btn btn-outline-light btn-floating px-3" href="https://www.linkedin.com/in/daneahsarmiento/" target="__blank" role="button"

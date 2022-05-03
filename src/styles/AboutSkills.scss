@@ -1,4 +1,5 @@
 @import 'Colors';
+@import 'MediaQueries';
 
 .aboutSkills-container {
   min-height: 100vh;
@@ -11,11 +12,21 @@
     color: $darkGreen;
     font-size: 100px;
     text-align: right;
+
+    @include xs {
+      text-align: center;
+      font-size: 65px;
+    }
+
   }
 
   h2 {
     color: white;
     font-size: 40px;
+
+    @include xs {
+      text-align: center;
+    }
   }
 }
 

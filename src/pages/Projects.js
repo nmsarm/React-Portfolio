@@ -9,10 +9,9 @@ import '../styles/Projects.scss'
 import { Carousel } from "react-bootstrap";
 
 const Projects = () => {
-
     return (
         <div className="projects-container container-fluid d-flex justify-content-center align-items-center px-5">
-            <Carousel variant="dark" interval={10000}>
+            <Carousel variant="dark" interval={null}>
                 <Carousel.Item>
                     <ElTomasino />
                 </Carousel.Item>

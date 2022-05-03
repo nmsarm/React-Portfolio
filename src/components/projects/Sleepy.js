@@ -65,7 +65,7 @@ const Sleepy = () => {
                         A Web Catalog with Inquiry Management Application for Sleepy PH
                     </h3>
                     <h5 className="fst-italic fw-light">Front-end Developer </h5>
-                    <div className="font-400">
+                    <div className="fp-desc font-400">
                         <p>
                             The project features a product catalog for the business, Sleepy PH, with an administrator module for
                             management of inquiries sent using the contact form of the website.

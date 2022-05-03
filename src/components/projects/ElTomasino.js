@@ -64,7 +64,7 @@ const ElTomasino = () => {
                     <h1 className="fp-text fw-bold pb-2">Featured Project </h1>
                     <h3 className="fw-bold py-2" style={{ color: "#198754" }}>EL TOMASINO: A Web Application Dedicated in Promoting UST Athletes</h3>
                     <h5 className="fst-italic fw-light">Project Manager / Developer </h5>
-                    <div className="font-400">
+                    <div className="fp-desc font-400">
                         <p>
                             A tailored content management platform created for the Institute of Physical Education and Athletics (IPEA)
                             of the University of Santo Tomas. The project aims to help in promoting the athletes of the University through an athletic-focused website.
