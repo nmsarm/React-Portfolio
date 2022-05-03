@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.56cc6ff5.css",
-    "main.js": "/React-Portfolio/static/js/main.921946a0.js",
+    "main.js": "/React-Portfolio/static/js/main.3a2e6c03.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/el-tomasino1.png": "/React-Portfolio/static/media/el-tomasino1.85fa30d06eb3262d96f8.png",
     "static/media/el-tomasino2.png": "/React-Portfolio/static/media/el-tomasino2.3b9938906893486b8010.png",
@@ -72,11 +72,11 @@
     "static/media/telus-logo.png": "/React-Portfolio/static/media/telus-logo.8b4e02f29e045eb01b01.png",
     "index.html": "/React-Portfolio/index.html",
     "main.56cc6ff5.css.map": "/React-Portfolio/static/css/main.56cc6ff5.css.map",
-    "main.921946a0.js.map": "/React-Portfolio/static/js/main.921946a0.js.map",
+    "main.3a2e6c03.js.map": "/React-Portfolio/static/js/main.3a2e6c03.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56cc6ff5.css",
-    "static/js/main.921946a0.js"
+    "static/js/main.3a2e6c03.js"
   ]
 }
