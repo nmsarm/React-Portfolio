@@ -88,7 +88,7 @@ const NavBar = () => {
                                         Contact
                                     </p>
                                     :
-                                    <button className="contactBtn btn-success rounded p-2 shadow" style={{ width: "120px" }}> Contact Me </button>
+                                    <button className="contactBtn btn-success rounded p-2 shadow-lg"> Contact Me </button>
                                 }
                             </Nav.Link>
                         </Nav>
