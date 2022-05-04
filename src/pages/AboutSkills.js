@@ -6,7 +6,7 @@ import Html from '../assets/img/skills/html.png';
 import Css from '../assets/img/skills/css.png';
 import Js from '../assets/img/skills/js.png';
 import Bootstrap from '../assets/img/skills/bootstrap.png';
-import React from '../assets/img/skills/react.png';
+import ReactImg from '../assets/img/skills/react.png';
 import Sass from '../assets/img/skills/sass.png';
 import Node from '../assets/img/skills/nodejs.png';
 import Mongo from '../assets/img/skills/mongodb.png';
@@ -59,7 +59,7 @@ const AboutSkills = () => {
             text: "JavaScript" 
         },
         { 
-            src: React, 
+            src: ReactImg, 
             alt: "react logo", 
             text: "React" 
         },
