@@ -2,21 +2,21 @@ import React, { useState, useEffect } from "react";
 // Stylesheet
 import '../styles/AboutSkills.scss'
 import SkillCard from '../components/SkillCard';
-import html from '../assets/img/skills/html.png';
-import css from '../assets/img/skills/css.png';
-import js from '../assets/img/skills/js.png';
-import bootstrap from '../assets/img/skills/bootstrap.png';
-import react from '../assets/img/skills/react.png';
-import sass from '../assets/img/skills/sass.png';
-import node from '../assets/img/skills/nodejs.png';
-import mongo from '../assets/img/skills/mongodb.png';
-import firebase from '../assets/img/skills/firebase.png';
-import python from '../assets/img/skills/python.png';
-import php from '../assets/img/skills/php.png';
-import java from '../assets/img/skills/java.png';
-import androidstudio from '../assets/img/skills/androidstudio.png';
-import github from '../assets/img/skills/github.png';
-import vscode from '../assets/img/skills/vscode.png';
+import Html from '../assets/img/skills/html.png';
+import Css from '../assets/img/skills/css.png';
+import Js from '../assets/img/skills/js.png';
+import Bootstrap from '../assets/img/skills/bootstrap.png';
+import React from '../assets/img/skills/react.png';
+import Sass from '../assets/img/skills/sass.png';
+import Node from '../assets/img/skills/nodejs.png';
+import Mongo from '../assets/img/skills/mongodb.png';
+import Firebase from '../assets/img/skills/firebase.png';
+import Python from '../assets/img/skills/python.png';
+import Php from '../assets/img/skills/php.png';
+import Java from '../assets/img/skills/java.png';
+import AndroidStudio from '../assets/img/skills/androidstudio.png';
+import Github from '../assets/img/skills/github.png';
+import Vscode from '../assets/img/skills/vscode.png';
 
 // Animate on Scroll
 import Aos from 'aos';
@@ -44,77 +44,77 @@ const AboutSkills = () => {
 
     const TechData = [
         { 
-            src: html, 
+            src: Html, 
             alt: "html logo", 
             text: "HTML" 
         },
         { 
-            src: css, 
+            src: Css, 
             alt: "css logo", 
             text: "CSS" 
         },
         { 
-            src: js, 
+            src: Js, 
             alt: "html logo", 
             text: "JavaScript" 
         },
         { 
-            src: react, 
+            src: React, 
             alt: "react logo", 
             text: "React" 
         },
         { 
-            src: bootstrap, 
+            src: Bootstrap, 
             alt: "bootstrap logo", 
             text: "Bootstrap" 
         },
         { 
-            src: sass, 
+            src: Sass, 
             alt: "sass logo", 
             text: "SASS" 
         },
         { 
-            src: node, 
+            src: Node, 
             alt: "nodejs logo", 
             text: "Node.js" 
         },
         { 
-            src: mongo, 
+            src: Mongo, 
             alt: "mongodb logo", 
             text: "MongoDB" 
         },
         { 
-            src: firebase, 
+            src: Firebase, 
             alt: "firebase logo", 
             text: "Firebase" 
         },
         { 
-            src: python, 
+            src: Python, 
             alt: "python logo", 
             text: "Python" 
         },
         { 
-            src: php, 
+            src: Php, 
             alt: "php logo", 
             text: "PHP" 
         },
         { 
-            src: java, 
+            src: Java, 
             alt: "java logo", 
             text: "Java" 
         },
         { 
-            src: androidstudio, 
+            src: AndroidStudio, 
             alt: "androidstudio logo", 
             text: "Android Studio" 
         },
         { 
-            src: github, 
+            src: Github, 
             alt: "github logo", 
             text: "GitHub" 
         },
         { 
-            src: vscode, 
+            src: Vscode, 
             alt: "vscode logo", 
             text: "VSCode" 
         }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect }  from 'react'
 import ElTomasino from '../components/projects/ElTomasino';
 import ChoKoreanMart from '../components/projects/ChoKoreanMart';
 import Sleepy from '../components/projects/Sleepy';
@@ -11,7 +11,6 @@ import { Carousel } from "react-bootstrap";
 // Animate on Scroll
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 const Projects = () => {
 

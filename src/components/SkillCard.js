@@ -1,7 +1,7 @@
+import React, { useEffect } from 'react'
 // Animate on Scroll
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 // Card Component - Props
 const SkillCard = (props) => {

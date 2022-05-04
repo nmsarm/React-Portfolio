@@ -1,57 +1,57 @@
 import React, { useState, useEffect } from "react";
 import { Carousel, Button } from "react-bootstrap";
-import splash from '../../assets/img/projects/tempo/splashscreen.jpg';
-import calendar from '../../assets/img/projects/tempo/calendar.jpg';
-import notes from '../../assets/img/projects/tempo/notes.jpg';
-import checklist from '../../assets/img/projects/tempo/checklist.jpg';
-import newChecklist from '../../assets/img/projects/tempo/checklist-new.jpg';
-import pomodoro from '../../assets/img/projects/tempo/pomodoro.jpg';
-import settings from '../../assets/img/projects/tempo/settings.jpg';
-import color from '../../assets/img/projects/tempo/color.jpg';
-import about from '../../assets/img/projects/tempo/about.jpg';
-import reminder from '../../assets/img/projects/tempo/reminder.jpg';
+import Splash from '../../assets/img/projects/tempo/splashscreen.jpg';
+import Calendar from '../../assets/img/projects/tempo/calendar.jpg';
+import Notes from '../../assets/img/projects/tempo/notes.jpg';
+import Checklist from '../../assets/img/projects/tempo/checklist.jpg';
+import NewChecklist from '../../assets/img/projects/tempo/checklist-new.jpg';
+import Pomodoro from '../../assets/img/projects/tempo/pomodoro.jpg';
+import Settings from '../../assets/img/projects/tempo/settings.jpg';
+import Color from '../../assets/img/projects/tempo/color.jpg';
+import About from '../../assets/img/projects/tempo/about.jpg';
+import Reminder from '../../assets/img/projects/tempo/reminder.jpg';
 
 const Tempo = () => {
 
     const images = [
         {
-            src: splash,
+            src: Splash,
             alt: "Splashscreen"
         },
         {
-            src: calendar,
+            src: Calendar,
             alt: "Calendar"
         },
         {
-            src: notes,
+            src: Notes,
             alt: "Notes"
         },
         {
-            src: checklist,
+            src: Checklist,
             alt: "Checklist"
         },
         {
-            src: newChecklist,
+            src: NewChecklist,
             alt: "New Task"
         },
         {
-            src: pomodoro,
+            src: Pomodoro,
             alt: "Pomodoro"
         },
         {
-            src: settings,
+            src: Settings,
             alt: "Settings"
         },
         {
-            src: color,
+            src: Color,
             alt: "Color"
         },
         {
-            src: about,
+            src: About,
             alt: "About"
         },
         {
-            src: reminder,
+            src: Reminder,
             alt: "Reminder"
         }
     ];

@@ -1,57 +1,57 @@
 import React from 'react';
 import { Carousel, Button } from "react-bootstrap";
-import home from '../../assets/img/projects/sleepy/home.png';
-import products from '../../assets/img/projects/sleepy/products.png';
-import product from '../../assets/img/projects/sleepy/product.png';
-import about1 from '../../assets/img/projects/sleepy/about-1.png';
-import about2 from '../../assets/img/projects/sleepy/about-2.png';
-import about3 from '../../assets/img/projects/sleepy/about-3.png';
-import contact from '../../assets/img/projects/sleepy/contact.png';
-import admin from '../../assets/img/projects/sleepy/admin.png';
-import inquiries from '../../assets/img/projects/sleepy/inquiries.png';
-import profile from '../../assets/img/projects/sleepy/profile.png';
+import Home from '../../assets/img/projects/sleepy/home.png';
+import Products from '../../assets/img/projects/sleepy/products.png';
+import Product from '../../assets/img/projects/sleepy/product.png';
+import About1 from '../../assets/img/projects/sleepy/about-1.png';
+import About2 from '../../assets/img/projects/sleepy/about-2.png';
+import About3 from '../../assets/img/projects/sleepy/about-3.png';
+import Contact from '../../assets/img/projects/sleepy/contact.png';
+import Admin from '../../assets/img/projects/sleepy/admin.png';
+import Inquiries from '../../assets/img/projects/sleepy/inquiries.png';
+import Profile from '../../assets/img/projects/sleepy/profile.png';
 
 const Sleepy = () => {
 
     const images = [
         {
-            src: home,
+            src: Home,
             alt: "Home"
         },
         {
-            src: products,
+            src: Products,
             alt: "Products"
         },
         {
-            src: product,
+            src: Product,
             alt: "Product"
         },
         {
-            src: about1,
+            src: About1,
             alt: "About"
         },
         {
-            src: about2,
+            src: About2,
             alt: "About"
         },
         {
-            src: about3,
+            src: About3,
             alt: "About"
         },
         {
-            src: contact,
+            src: Contact,
             alt: "Contact"
         },
         {
-            src: admin,
+            src: Admin,
             alt: "Admin"
         },
         {
-            src: inquiries,
+            src: Inquiries,
             alt: "Inquiries"
         },
         {
-            src: profile,
+            src: Profile,
             alt: "Profile"
         }
     ];

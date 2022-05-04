@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import TimelineCard from '../components/TimelineCard';
-import telus from '../assets/img/telus-logo.png';
+import Telus from '../assets/img/telus-logo.png';
 import UST from '../assets/img/ust-logo.png';
-import fireclay from '../assets/img/fireclay-logo.png';
-import iAc from '../assets/img/iacademy-logo.png';
+import Fireclay from '../assets/img/fireclay-logo.png';
+import IAc from '../assets/img/iacademy-logo.png';
 
 // Stylesheet
 import '../styles/AboutMe.scss'
@@ -35,7 +35,7 @@ const AboutMe = () => {
     const TimelineData = [
         {
             date: "February 2022 - Present",
-            src: telus,
+            src: Telus,
             width: "60",
             height: "40",
             heading: "TELUS International Philippines, Inc.",
@@ -61,7 +61,7 @@ const AboutMe = () => {
         },
         {
             date: "April 2018",
-            src: fireclay,
+            src: Fireclay,
             width: "50",
             height: "50",
             heading: "Fireclay Corporation",
@@ -76,7 +76,7 @@ const AboutMe = () => {
         },
         {
             date: "August 2016 - May 2018",
-            src: iAc,
+            src: IAc,
             width: "50",
             height: "50",
             heading: "iACADEMY",

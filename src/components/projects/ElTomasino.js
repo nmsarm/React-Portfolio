@@ -1,57 +1,57 @@
 import React from 'react';
 import { Carousel, Button } from "react-bootstrap";
-import eltomasino1 from '../../assets/img/projects/el-tomasino/el-tomasino1.png';
-import eltomasino2 from '../../assets/img/projects/el-tomasino/el-tomasino2.png';
-import eltomasino3 from '../../assets/img/projects/el-tomasino/el-tomasino3.png';
-import eltomasino4 from '../../assets/img/projects/el-tomasino/el-tomasino4.png';
-import eltomasino41 from '../../assets/img/projects/el-tomasino/el-tomasino4.1.png';
-import eltomasino5 from '../../assets/img/projects/el-tomasino/el-tomasino5.png';
-import eltomasino6 from '../../assets/img/projects/el-tomasino/el-tomasino6.png';
-import eltomasino7 from '../../assets/img/projects/el-tomasino/el-tomasino7.png';
-import eltomasino8 from '../../assets/img/projects/el-tomasino/el-tomasino8.png';
-import eltomasino9 from '../../assets/img/projects/el-tomasino/el-tomasino9.png';
+import Eltomasino1 from '../../assets/img/projects/el-tomasino/el-tomasino1.png';
+import Eltomasino2 from '../../assets/img/projects/el-tomasino/el-tomasino2.png';
+import Eltomasino3 from '../../assets/img/projects/el-tomasino/el-tomasino3.png';
+import Eltomasino4 from '../../assets/img/projects/el-tomasino/el-tomasino4.png';
+import Eltomasino41 from '../../assets/img/projects/el-tomasino/el-tomasino4.1.png';
+import Eltomasino5 from '../../assets/img/projects/el-tomasino/el-tomasino5.png';
+import Eltomasino6 from '../../assets/img/projects/el-tomasino/el-tomasino6.png';
+import Eltomasino7 from '../../assets/img/projects/el-tomasino/el-tomasino7.png';
+import Eltomasino8 from '../../assets/img/projects/el-tomasino/el-tomasino8.png';
+import Eltomasino9 from '../../assets/img/projects/el-tomasino/el-tomasino9.png';
 
 const ElTomasino = () => {
 
     const images = [
         {
-            src: eltomasino1,
+            src: Eltomasino1,
             alt: "Home"
         },
         {
-            src: eltomasino2,
+            src: Eltomasino2,
             alt: "Athletes"
         },
         {
-            src: eltomasino3,
+            src: Eltomasino3,
             alt: "Game Schedules"
         },
         {
-            src: eltomasino4,
+            src: Eltomasino4,
             alt: "Tryouts"
         },
         {
-            src: eltomasino41,
+            src: Eltomasino41,
             alt: "Tryouts Form"
         },
         {
-            src: eltomasino5,
+            src: Eltomasino5,
             alt: "Tryouts Email"
         },
         {
-            src: eltomasino6,
+            src: Eltomasino6,
             alt: "Login"
         },
         {
-            src: eltomasino7,
+            src: Eltomasino7,
             alt: "Dashboard"
         },
         {
-            src: eltomasino8,
+            src: Eltomasino8,
             alt: "Engagment Reports"
         },
         {
-            src: eltomasino9,
+            src: Eltomasino9,
             alt: "About"
         }
 

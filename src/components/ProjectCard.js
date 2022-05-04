@@ -1,10 +1,9 @@
-import React from 'react'
+import React, { useEffect }  from 'react'
 import { Card } from "react-bootstrap";
 
 // Animate on Scroll
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 const ProjectCard = (props) => {
 

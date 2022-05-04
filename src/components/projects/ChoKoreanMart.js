@@ -1,72 +1,72 @@
 import React from 'react';
 import { Carousel, Button } from "react-bootstrap";
-import login from '../../assets/img/projects/cho-korean-mart/login.png';
-import dash from '../../assets/img/projects/cho-korean-mart/dashboard.png';
-import accs from '../../assets/img/projects/cho-korean-mart/accounts.png';
-import adduser from '../../assets/img/projects/cho-korean-mart/add-user.png';
-import inventory from '../../assets/img/projects/cho-korean-mart/inventory.png';
-import addproduct from '../../assets/img/projects/cho-korean-mart/add-product.png';
-import stock from '../../assets/img/projects/cho-korean-mart/stock.png';
-import pos from '../../assets/img/projects/cho-korean-mart/pos.png';
-import pos2 from '../../assets/img/projects/cho-korean-mart/pos-2.png';
-import sales from '../../assets/img/projects/cho-korean-mart/sales.png';
-import history from '../../assets/img/projects/cho-korean-mart/history.png';
-import transaction from '../../assets/img/projects/cho-korean-mart/transaction.png';
-import invoice from '../../assets/img/projects/cho-korean-mart/invoice.png';
+import Login from '../../assets/img/projects/cho-korean-mart/login.png';
+import Dash from '../../assets/img/projects/cho-korean-mart/dashboard.png';
+import Accs from '../../assets/img/projects/cho-korean-mart/accounts.png';
+import AddUser from '../../assets/img/projects/cho-korean-mart/add-user.png';
+import Inventory from '../../assets/img/projects/cho-korean-mart/inventory.png';
+import AddProduct from '../../assets/img/projects/cho-korean-mart/add-product.png';
+import Stock from '../../assets/img/projects/cho-korean-mart/stock.png';
+import Pos from '../../assets/img/projects/cho-korean-mart/pos.png';
+import Pos2 from '../../assets/img/projects/cho-korean-mart/pos-2.png';
+import Sales from '../../assets/img/projects/cho-korean-mart/sales.png';
+import History from '../../assets/img/projects/cho-korean-mart/history.png';
+import Transaction from '../../assets/img/projects/cho-korean-mart/transaction.png';
+import Invoice from '../../assets/img/projects/cho-korean-mart/invoice.png';
 
 const ChoKoreanMart = () => {
 
     const images = [
         {
-            src: login,
+            src: Login,
             alt: "Login"
         },
         {
-            src: dash,
+            src: Dash,
             alt: "Dashboard"
         },
         {
-            src: accs,
+            src: Accs,
             alt: "Accounts"
         },
         {
-            src: adduser,
+            src: AddUser,
             alt: "Add User"
         },
         {
-            src: inventory,
+            src: Inventory,
             alt: "Inventory"
         },
         {
-            src: addproduct,
+            src: AddProduct,
             alt: "Add Product"
         },
         {
-            src: stock,
+            src: Stock,
             alt: "Stocks"
         },
         {
-            src: pos,
+            src: Pos,
             alt: "POS"
         },
         {
-            src: pos2,
+            src: Pos2,
             alt: "POS 2"
         },
         {
-            src: sales,
+            src: Sales,
             alt: "Sales"
         },
         {
-            src: history,
+            src: History,
             alt: "History"
         },
         {
-            src: transaction,
+            src: Transaction,
             alt: "Transaction"
         },
         {
-            src: invoice,
+            src: Invoice,
             alt: "Invoice"
         }
 

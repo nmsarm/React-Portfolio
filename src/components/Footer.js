@@ -1,11 +1,4 @@
 const Footer = () =>{
-    
-    // internal css
-    // const footerStyle = {
-    //     position: "relative",
-    //     width: "100%",
-    //     bottom: "0"          
-    // }
 
     const footerCopyright = {
         backgroundColor: "#212121",
