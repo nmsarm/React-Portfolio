@@ -49,6 +49,28 @@ body {
     margin-right: 2rem;
     margin-left: 0rem;
   }
+  // @include xl {
+  //   margin-right: 1rem;
+  //   margin-left: 1rem;
+  // }
+}
+
+.footer-socmed-btn {
+  margin-right: 2rem;
+
+  @include xs {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  @include md {
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+  }
+  @include xl {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 }
 
 /* width */

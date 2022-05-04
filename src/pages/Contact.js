@@ -35,7 +35,7 @@ const Contact = () => {
 
     //choose the screen size 
     const handleResize = () => {
-        if (window.innerWidth < 995) {
+        if (window.innerWidth < 1300) {
             setIsMobile(true)
         } else {
             setIsMobile(false)
@@ -57,7 +57,7 @@ const Contact = () => {
             <div className="contact-container container-fluid d-flex align-items-center justify-content-center py-5">
                 <div className="container">
                     <div className="row">
-                        <div className={isMobile ? "col-lg-6 col-sm-12 py-lg-5 pb-5 text-center" : "col-lg-6 col-sm-12 py-lg-5 pb-5"} data-aos="fade-right">
+                        <div className={isMobile ? "col-lg-6 col-sm-12 py-lg-3 pb-5 text-center" : "col-lg-6 col-sm-12 py-lg-5 mx-3 pb-5"} data-aos="fade-right">
                             <h1 className="contact-title text-white">Get in Touch</h1>
                             <p className="contact-desc text-white font-400 mt-4">
                                 Feel free to reach out for inquiries, invitations, or collaborations! :)
