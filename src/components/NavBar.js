@@ -83,7 +83,7 @@ const NavBar = () => {
                                     About
                                 </p>
                             </Nav.Link>
-                            <Nav.Link href="#works" className={navbar ? "nav-link" : isMobile ? " " : isTablet? " " : "nav-link offset-md-2"}>
+                            <Nav.Link href="#projects" className={navbar ? "nav-link" : isMobile ? " " : isTablet? " " : "nav-link offset-md-2"}>
                                 <p
                                     className={navbar ? "pt-3 hover-underline-animation2" : isMobile? "text-dark pt-3 hover-underline-animation2" : isTablet? "text-dark pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
                                 >

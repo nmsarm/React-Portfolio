@@ -28,7 +28,7 @@ function App() {
         <AboutMe />
         <AboutSkills />
        </section>
-       <section className="works-section anchor" id="works">
+       <section className="works-section anchor" id="projects">
         <Projects/>
         <OtherProjects />
        </section>
