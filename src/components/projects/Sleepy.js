@@ -78,7 +78,7 @@ const Sleepy = () => {
                             <li>CRUD Functionalities</li>
                         </ul>
                         <p className="fw-bold">Tools and Technologies Used:</p>
-                        <p>PHP, MySQL, phpMyAdmin, PHPMailer, and GitHub</p>
+                        <p>HTML, CSS, Bootstrap, PHP, MySQL, phpMyAdmin, PHPMailer, and GitHub</p>
                     </div>
                 </div>
                 <div className="col-lg-5 col-sm-12 d-flex align-items-center">
