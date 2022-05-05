@@ -54,8 +54,8 @@ const NavBar = () => {
             <Navbar
                 collapseOnSelect
                 expand="lg"
-                className={navbar ? "shadow fixed-top navbar-light p-0" : "fixed-top navbar-dark p-0"}
-                bg={navbar ? "light" : isMobile ? "dark" : isTablet ? "dark" : " "}
+                className={navbar ? "shadow fixed-top navbar-light p-0" : isMobile ? "shadow fixed-top navbar-light p-0" : isTablet ? "shadow fixed-top navbar-light p-0" : "fixed-top navbar-dark p-0"}
+                bg={navbar ? "light" : isMobile ? "light" : isTablet ? "light" : " "}
                 variant={navbar ? "light" : " "}
                 data-aos={navbar ? " " : "fade-down"}
             >
@@ -71,47 +71,36 @@ const NavBar = () => {
                                 className={ navbar ? "nav-link" : isMobile ? " " : "nav-link offset-md-1"
                                     }>
                                 <p
-                                    className={navbar ? "pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
+                                    className={navbar ? "pt-3 hover-underline-animation2" : isMobile? "text-dark pt-3 hover-underline-animation2" : isTablet? "text-dark pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
                                 >
                                     Home
                                 </p>
                             </Nav.Link>
                             <Nav.Link href="#about" className={navbar ? "nav-link" : isMobile ? " " : isTablet? " " : "nav-link offset-md-2"}>
                                 <p
-                                    className={navbar ? "pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
+                                    className={navbar ? "pt-3 hover-underline-animation2" : isMobile? "text-dark pt-3 hover-underline-animation2" : isTablet? "text-dark pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
                                 >
                                     About
                                 </p>
                             </Nav.Link>
                             <Nav.Link href="#works" className={navbar ? "nav-link" : isMobile ? " " : isTablet? " " : "nav-link offset-md-2"}>
                                 <p
-                                    className={navbar ? "pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
+                                    className={navbar ? "pt-3 hover-underline-animation2" : isMobile? "text-dark pt-3 hover-underline-animation2" : isTablet? "text-dark pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
                                 >
                                     Projects
                                 </p>
                             </Nav.Link>
                             <Nav.Link href="#contact" className={navbar ? "nav-link" : isTablet ? " " : "nav-link offset-lg-11 pt-3"}>
-                                {navbar ?
-                                    <p
-                                        className={navbar ? "pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
-                                    >
-                                        Contact
-                                    </p>
-                                    :
+                                {navbar ? 
+                                    //if scrolled
+                                    <p className="pt-3 hover-underline-animation2"> Contact </p>
+                                    : 
+                                    //if not scrolled
                                     isMobile ?
-
-                                        <p
-                                            className={navbar ? "pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
-                                        >
-                                            Contact
-                                        </p>
+                                        <p className="pt-3 hover-underline-animation2"> Contact </p>
                                         :
                                         isTablet ?
-                                            <p
-                                                className={navbar ? "pt-3 hover-underline-animation2" : "text-white pt-3 hover-underline-animation"}
-                                            >
-                                                Contact
-                                            </p>
+                                            <p className="pt-3 hover-underline-animation2"> Contact </p>
                                             :
                                             <button className="contactBtn btn-success rounded p-2 shadow-lg"> Contact Me </button>
 
