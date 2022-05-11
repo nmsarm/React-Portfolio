@@ -60,7 +60,7 @@ const NavBar = () => {
                 data-aos={navbar ? " " : "fade-down"}
             >
                 <div className="container">
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand href="#home">
                         <b>DaneahSarmiento</b>
                     </Navbar.Brand>
                     <Navbar.Toggle className="my-2" aria-controls="responsive-navbar-nav" />

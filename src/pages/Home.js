@@ -48,7 +48,7 @@ const Home = () =>{
                     <Button 
                         variant="success"
                         className="btn-view rounded py-2"
-                        href="#works"
+                        href="#projects"
                     > 
                         View My Works 
                     </Button>

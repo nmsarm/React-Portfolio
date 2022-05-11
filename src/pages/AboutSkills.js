@@ -156,7 +156,7 @@ const AboutSkills = () => {
                             />
                         ))}
                     </div>
-                    <h2>Tools and Technologies Used</h2>
+                    <h2>Tools and Technologies</h2>
                     <div className="tech-container d-flex justify-content-center text-white mt-4 px-5">
                         {TechData.map((data, pos) => (
                             <div className="logo-container text-center p-4" data-aos="fade-up" key={pos}>
