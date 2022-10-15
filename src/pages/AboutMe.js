@@ -34,7 +34,7 @@ const AboutMe = () => {
 
     const TimelineData = [
         {
-            date: "February 2022 - Present",
+            date: "February 2022 - May 2022",
             src: Telus,
             width: "60",
             height: "40",
@@ -91,7 +91,7 @@ const AboutMe = () => {
                 <div className={isMobile ? "aboutMe row py-5" : "aboutMe pa-heading-line-right row py-5"}>
                     <h1 data-aos="fade-left"> Who Am I </h1>
                     <p className="aboutMe-p text-white" data-aos="fade-left">
-                        I am <b> Daneah Marelle M. Sarmiento</b>, a 22-year old, 4th year Information Technology student at the University of Santo Tomas, specializing in Web and Mobile App Development.
+                        I am <b> Daneah Marelle M. Sarmiento</b>, an Information Technology graduate at the University of Santo Tomas, specializing in Web and Mobile App Development.
                         I am a detail-oriented and a keen observant individual, eager to learn about emerging technologies
                         and acquire new skills and opportunities. I am interested towards learning and working with Web/Mobile App Design and Development,
                         as well as in the field of Software Quality Assurance.
