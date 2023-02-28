@@ -61,7 +61,8 @@ const Contact = () => {
                             <h1 className="contact-title text-white">Get in Touch</h1>
                             <p className="contact-desc text-white font-400 mt-4">
                                 Feel free to reach out for inquiries, invitations, or collaborations! :)
-                            </p>
+                            </p>   
+                            {/*           
                             <div className="mt-5 mb-4">
                                 <a className="socmed-btn btn btn-outline-light btn-floating px-3 text-center" href="mailto:daneahsarmiento@gmail.com?" target="__blank" role="button"
                                 ><i className="fa fa-envelope"></i
@@ -73,6 +74,7 @@ const Contact = () => {
                                 ><i className="fa fa-github"></i
                                 ></a>
                             </div>
+                            */}
                             <Button
                                 variant="success"
                                 className="btn-download rounded py-lg-2"
